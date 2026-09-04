@@ -61,7 +61,13 @@ async def sync_cursor(sid, data):
 @sio.event
 async def sync_game(sid, data):
     if sid == host_sid and guest_sid:
-        await sio.emit("sync_game", data, to=guest_sid)
+        await sio.emit("sync_game", data, to=target)
+
+# ⭐ NUEVO: Fuerza al participante a configurar su cámara individualmente
+@sio.event
+async def request_guest_camera_setup(sid, data):
+    if guest_sid:
+        await sio.emit("open_camera_setup", data, to=guest_sid)
 
 @sio.event
 async def disconnect(sid):
