@@ -60,8 +60,10 @@ async def sync_cursor(sid, data):
 
 @sio.event
 async def sync_game(sid, data):
-    if sid == host_sid and guest_sid:
-        await sio.emit("sync_game", data, to=guest_sid)
+    global host_sid, guest_sid
+    target = guest_sid if sid == host_sid else host_sid
+    if target:
+        await sio.emit("sync_game", data, to=target)
 
 @sio.event
 async def request_guest_camera_setup(sid, data):
