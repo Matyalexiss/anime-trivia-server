@@ -2,7 +2,7 @@
   "animes": {
     "Bleach": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
           "respuesta_correcta": "Grand Fisher"
         }
@@ -36,24 +36,28 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 capitanes del Gotei 13",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Byakuya, Kenpachi, Toshiro, Yamamoto, Ukitake, Kyoraku"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre de la amiga de Ichigo es ___",
           "respuesta_correcta": "Rukia"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "capitanes",
-          "pregunta": "Menciona 2 capitanes del Gotei 13",
-          "respuesta_correcta": "Byakuya, Kenpachi, Toshiro, Yamamoto, Ukitake, Kyoraku"
         }
       }
     },
     "Chainsaw": {
       "dificil": {
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "demonios",
-          "pregunta": "Menciona 2 Demonios Primordiales",
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 Demonios Primordiales",
+            "Pista 2...",
+            "Pista 3..."
+          ],
           "respuesta_correcta": "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
         }
       },
@@ -86,19 +90,15 @@
         }
       },
       "intermedia": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Qué demonio mata a Himeno?",
           "respuesta_correcta": "Demonio Gun"
-        },
-        "completar_espacios": {
-          "pregunta": "El nombre del perro de Denji es ___",
-          "respuesta_correcta": "Pochita"
         }
       }
     },
     "Dragon Ball": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
           "respuesta_correcta": "Kaio-sama del Norte"
         }
@@ -132,21 +132,23 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 transformaciones de Goku",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
+        },
+        "completar_oracion": {
           "pregunta": "El planeta natal de Goku es ___",
           "respuesta_correcta": "Vegeta"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "transformaciones",
-          "pregunta": "Menciona 2 transformaciones de Goku",
-          "respuesta_correcta": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
         }
       }
     },
     "Jujutsu": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el nombre completo de Gojo?",
           "respuesta_correcta": "Satoru Gojo"
         }
@@ -180,21 +182,173 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 de los Pilares de la Sociedad Jujutsu",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre del director de Jujutsu High es ___",
           "respuesta_correcta": "Masamichi Yaga"
+        }
+      }
+    },
+    "Kanokari": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
         },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "pilares",
-          "pregunta": "Menciona 2 de los Pilares de la Sociedad Jujutsu",
-          "respuesta_correcta": "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
     "Mushoku": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el nombre completo de Rudeus en su vida pasada?",
           "respuesta_correcta": "No se revela"
         }
@@ -228,21 +382,23 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 esposas de Rudeus",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Sylphiette, Eris, Roxy"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre del padre de Rudeus es ___",
           "respuesta_correcta": "Paul"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "esposas",
-          "pregunta": "Menciona 2 esposas de Rudeus",
-          "respuesta_correcta": "Sylphiette, Eris, Roxy"
         }
       }
     },
     "Naruto": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del padre de Naruto?",
           "respuesta_correcta": "Minato Namikaze"
         }
@@ -276,21 +432,23 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 miembros del Equipo 7",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Naruto, Sasuke, Sakura, Kakashi"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre del sensei de Naruto es ___",
           "respuesta_correcta": "Kakashi"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "miembros",
-          "pregunta": "Menciona 2 miembros del Equipo 7",
-          "respuesta_correcta": "Naruto, Sasuke, Sakura, Kakashi"
         }
       }
     },
     "One Piece": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el sueño de Zoro?",
           "respuesta_correcta": "Ser el mejor espadachín del mundo"
         }
@@ -324,29 +482,33 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 miembros de los Sombrero de Paja",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre del primer barco de los Sombrero de Paja es ___",
           "respuesta_correcta": "Going Merry"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "tripulantes",
-          "pregunta": "Menciona 2 miembros de los Sombrero de Paja",
-          "respuesta_correcta": "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
         }
       }
     },
     "Oshi no ko": {
       "dificil": {
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "miembros",
-          "pregunta": "Menciona 2 miembros originales de B-Komachi",
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 miembros originales de B-Komachi",
+            "Pista 2...",
+            "Pista 3..."
+          ],
           "respuesta_correcta": "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
         }
       },
       "facil": {
-        "completar_espacios": {
+        "completar_oracion": {
           "pregunta": "El nombre del grupo de idols de Ai es ___",
           "respuesta_correcta": "B-Komachi"
         },
@@ -362,7 +524,7 @@
         }
       },
       "intermedia": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del padre biológico de Aqua y Ruby?",
           "respuesta_correcta": "Desconocido"
         },
@@ -380,7 +542,7 @@
     },
     "Re:Zero": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
           "respuesta_correcta": "Regulus Corneas"
         }
@@ -414,21 +576,23 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 3 de las brujas del pecado",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre de la tienda donde trabaja Subaru es ___",
           "respuesta_correcta": "Kararagi"
-        },
-        "mencionar": {
-          "cantidad": 3,
-          "categoria": "brujas",
-          "pregunta": "Menciona 3 de las brujas del pecado",
-          "respuesta_correcta": "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
         }
       }
     },
     "Rent a GF": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Por qué Kazuya rompió con Mami?",
           "respuesta_correcta": "Mami lo dejó"
         }
@@ -462,45 +626,70 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 novias de alquiler del anime",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Chizuru, Mami, Ruka, Sumi"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre real de Chizuru es ___",
           "respuesta_correcta": "Chizuru Ichinose"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "novias",
-          "pregunta": "Menciona 2 novias de alquiler del anime",
-          "respuesta_correcta": "Chizuru, Mami, Ruka, Sumi"
         }
       }
     },
     "Shingeki": {
       "dificil": {
-        "abierta": {
+        "adivinar_personaje": {
+          "pistas": [
+            "asfdds",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
           "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
           "respuesta_correcta": "Zeke Yeager"
         },
-        "mencionar": {
-          "cantidad": 3,
-          "categoria": "",
-          "pregunta": "asfdds",
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
           "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
-        "abierta": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Chizuru es virgen?",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "si."
+        },
+        "completar_oracion": {
           "pregunta": "Kazuya tiene una licencia de conducir?",
           "respuesta_correcta": "si"
-        },
-        "completar_espacios": {
-          "pregunta": "Xddddd",
-          "respuesta_correcta": "123"
-        },
-        "mencionar": {
-          "cantidad": 3,
-          "categoria": "si",
-          "pregunta": "Chizuru es virgen?",
-          "respuesta_correcta": "si."
         },
         "multiple_choice": {
           "opciones": [
@@ -512,12 +701,33 @@
           "pregunta": "¿Qué tipo de titán es Eren inicialmente?",
           "respuesta_correcta": "Titán de Ataque"
         },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
         "verdadero_falso": {
           "pregunta": "¿Eren Yeager es el protagonista de Shingeki no Kyojin?",
           "respuesta_correcta": "Verdadero"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
         "multiple_choice": {
           "opciones": [
             "5 años",
@@ -527,18 +737,33 @@
           ],
           "pregunta": "¿Cuántos años han pasado desde la caída del Muro María?",
           "respuesta_correcta": "5 años"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 de los 9 titanes",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre del escuadrón de élite es ___",
           "respuesta_correcta": "Levi"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "titanes",
-          "pregunta": "Menciona 2 de los 9 titanes",
-          "respuesta_correcta": "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
         },
         "multiple_choice": {
           "opciones": [
@@ -550,6 +775,15 @@
           "pregunta": "Eren es miagejero?",
           "respuesta_correcta": "Si"
         },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
         "verdadero_falso": {
           "pregunta": "Kazuya vivio en Royal hill nerima?",
           "respuesta_correcta": "Verdadero"
@@ -558,7 +792,7 @@
     },
     "Uma Musume": {
       "dificil": {
-        "abierta": {
+        "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del entrenador principal?",
           "respuesta_correcta": "No tiene nombre específico"
         }
@@ -592,15 +826,17 @@
         }
       },
       "intermedia": {
-        "completar_espacios": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 Uma Musume famosas",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
+        },
+        "completar_oracion": {
           "pregunta": "El nombre de la academia es Tracen ___",
           "respuesta_correcta": "Academy"
-        },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "personajes",
-          "pregunta": "Menciona 2 Uma Musume famosas",
-          "respuesta_correcta": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
         }
       }
     }
