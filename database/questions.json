@@ -20,7 +20,7 @@
           "cantidad": 3,
           "categoria": "si",
           "pregunta": "Chizuru es virgen?",
-          "respuesta_correcta": ""
+          "respuesta_correcta": "si."
         },
         "multiple_choice": {
           "opciones": [
@@ -59,6 +59,16 @@
           "categoria": "titanes",
           "pregunta": "Menciona 2 de los 9 titanes",
           "respuesta_correcta": "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Si",
+            "Obvio",
+            "No",
+            "Supongo"
+          ],
+          "pregunta": "Eren es miagejero?",
+          "respuesta_correcta": "Si"
         },
         "verdadero_falso": {
           "pregunta": "Kazuya vivio en Royal hill nerima?",
