@@ -1,5 +1,479 @@
 {
   "animes": {
+    "Bleach": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
+          "respuesta_correcta": "Grand Fisher"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Zangetsu",
+            "Senbonzakura",
+            "Hyorinmaru",
+            "Zabimaru"
+          ],
+          "pregunta": "¿Cómo se llama la espada de Ichigo?",
+          "respuesta_correcta": "Zangetsu"
+        },
+        "verdadero_falso": {
+          "pregunta": "Ichigo Kurosaki es un Shinigami sustituto",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "División 6",
+            "División 5",
+            "División 10",
+            "División 11"
+          ],
+          "pregunta": "¿Qué número de división es la de Byakuya?",
+          "respuesta_correcta": "División 6"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre de la amiga de Ichigo es ___",
+          "respuesta_correcta": "Rukia"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "capitanes",
+          "pregunta": "Menciona 2 capitanes del Gotei 13",
+          "respuesta_correcta": "Byakuya, Kenpachi, Toshiro, Yamamoto, Ukitake, Kyoraku"
+        }
+      }
+    },
+    "Chainsaw": {
+      "dificil": {
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "demonios",
+          "pregunta": "Menciona 2 Demonios Primordiales",
+          "respuesta_correcta": "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Demonio Motosierra",
+            "Demonio Sangre",
+            "Demonio Futuro",
+            "Demonio Fuego"
+          ],
+          "pregunta": "¿Qué demonio es Denji?",
+          "respuesta_correcta": "Demonio Motosierra"
+        },
+        "verdadero_falso": {
+          "pregunta": "Makima es la Demonio del Control",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Ojo derecho",
+            "Ojo izquierdo",
+            "Brazo derecho",
+            "Pierna izquierda"
+          ],
+          "pregunta": "¿Qué contrato hace Aki con el Demonio Futuro?",
+          "respuesta_correcta": "Ojo derecho"
+        }
+      },
+      "intermedia": {
+        "abierta": {
+          "pregunta": "¿Qué demonio mata a Himeno?",
+          "respuesta_correcta": "Demonio Gun"
+        },
+        "completar_espacios": {
+          "pregunta": "El nombre del perro de Denji es ___",
+          "respuesta_correcta": "Pochita"
+        }
+      }
+    },
+    "Dragon Ball": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
+          "respuesta_correcta": "Kaio-sama del Norte"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Gohan",
+            "Goten",
+            "Trunks",
+            "Vegeta Jr"
+          ],
+          "pregunta": "¿Cómo se llama el hijo de Goku?",
+          "respuesta_correcta": "Gohan"
+        },
+        "verdadero_falso": {
+          "pregunta": "Goku es un Saiyajin",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pregunta": "¿Cuántas esferas del dragón existen en la Tierra?",
+          "respuesta_correcta": "7"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El planeta natal de Goku es ___",
+          "respuesta_correcta": "Vegeta"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "transformaciones",
+          "pregunta": "Menciona 2 transformaciones de Goku",
+          "respuesta_correcta": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
+        }
+      }
+    },
+    "Jujutsu": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el nombre completo de Gojo?",
+          "respuesta_correcta": "Satoru Gojo"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Técnica de Sombras",
+            "Técnica de Maldición",
+            "Técnica de Expansión",
+            "Técnica de Dominio"
+          ],
+          "pregunta": "¿Qué técnica usa Megumi?",
+          "respuesta_correcta": "Técnica de Sombras"
+        },
+        "verdadero_falso": {
+          "pregunta": "Yuji Itadori es el recipiente de Sukuna",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Índice derecho",
+            "Índice izquierdo",
+            "Corazón",
+            "Pulgar"
+          ],
+          "pregunta": "¿Qué dedo de Sukuna consume Yuji primero?",
+          "respuesta_correcta": "Índice derecho"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre del director de Jujutsu High es ___",
+          "respuesta_correcta": "Masamichi Yaga"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "pilares",
+          "pregunta": "Menciona 2 de los Pilares de la Sociedad Jujutsu",
+          "respuesta_correcta": "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
+        }
+      }
+    },
+    "Mushoku": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el nombre completo de Rudeus en su vida pasada?",
+          "respuesta_correcta": "No se revela"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Roxy",
+            "Sylphiette",
+            "Eris",
+            "Lilia"
+          ],
+          "pregunta": "¿Quién es la primera maestra de magia de Rudeus?",
+          "respuesta_correcta": "Roxy"
+        },
+        "verdadero_falso": {
+          "pregunta": "Rudeus Greyrat es reencarnado en otro mundo",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Nivel Santo",
+            "Nivel Rey",
+            "Nivel Emperador",
+            "Nivel Dios"
+          ],
+          "pregunta": "¿Qué nivel de magia alcanza Rudeus?",
+          "respuesta_correcta": "Nivel Santo"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre del padre de Rudeus es ___",
+          "respuesta_correcta": "Paul"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "esposas",
+          "pregunta": "Menciona 2 esposas de Rudeus",
+          "respuesta_correcta": "Sylphiette, Eris, Roxy"
+        }
+      }
+    },
+    "Naruto": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el nombre del padre de Naruto?",
+          "respuesta_correcta": "Minato Namikaze"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Kyubi",
+            "Shukaku",
+            "Matatabi",
+            "Isobu"
+          ],
+          "pregunta": "¿Qué bestia está sellada dentro de Naruto?",
+          "respuesta_correcta": "Kyubi"
+        },
+        "verdadero_falso": {
+          "pregunta": "Naruto quiere ser Hokage",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Kage Bunshin",
+            "Rasengan",
+            "Chidori",
+            "Sharingan"
+          ],
+          "pregunta": "¿Qué técnica prohibida aprendió Naruto al inicio?",
+          "respuesta_correcta": "Kage Bunshin"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre del sensei de Naruto es ___",
+          "respuesta_correcta": "Kakashi"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "miembros",
+          "pregunta": "Menciona 2 miembros del Equipo 7",
+          "respuesta_correcta": "Naruto, Sasuke, Sakura, Kakashi"
+        }
+      }
+    },
+    "One Piece": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el sueño de Zoro?",
+          "respuesta_correcta": "Ser el mejor espadachín del mundo"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Gomu Gomu no Mi",
+            "Mera Mera no Mi",
+            "Hie Hie no Mi",
+            "Yami Yami no Mi"
+          ],
+          "pregunta": "¿Qué fruta comió Luffy?",
+          "respuesta_correcta": "Gomu Gomu no Mi"
+        },
+        "verdadero_falso": {
+          "pregunta": "Luffy quiere ser el Rey de los Piratas",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "pregunta": "¿Cuántos Yonko existen?",
+          "respuesta_correcta": "4"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre del primer barco de los Sombrero de Paja es ___",
+          "respuesta_correcta": "Going Merry"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "tripulantes",
+          "pregunta": "Menciona 2 miembros de los Sombrero de Paja",
+          "respuesta_correcta": "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
+        }
+      }
+    },
+    "Oshi no ko": {
+      "dificil": {
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "miembros",
+          "pregunta": "Menciona 2 miembros originales de B-Komachi",
+          "respuesta_correcta": "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
+        }
+      },
+      "facil": {
+        "completar_espacios": {
+          "pregunta": "El nombre del grupo de idols de Ai es ___",
+          "respuesta_correcta": "B-Komachi"
+        },
+        "verdadero_falso": {
+          "pregunta": "Ai Hoshino es la madre de Aqua y Ruby",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "verdadero_falso": {
+          "pregunta": "Ruby reencarnó con recuerdos de su vida pasada como Sarina",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "intermedia": {
+        "abierta": {
+          "pregunta": "¿Cuál es el nombre del padre biológico de Aqua y Ruby?",
+          "respuesta_correcta": "Desconocido"
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Actor",
+            "Médico rural",
+            "Idol",
+            "Productor"
+          ],
+          "pregunta": "¿Qué profesión tiene Gorou antes de reencarnar?",
+          "respuesta_correcta": "Médico rural"
+        }
+      }
+    },
+    "Re:Zero": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
+          "respuesta_correcta": "Regulus Corneas"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Fuego",
+            "Agua",
+            "Hielo/Espíritus",
+            "Tierra"
+          ],
+          "pregunta": "¿Qué magia usa Emilia principalmente?",
+          "respuesta_correcta": "Hielo/Espíritus"
+        },
+        "verdadero_falso": {
+          "pregunta": "¿Subaru tiene el poder del Retorno por la Muerte?",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "5 veces",
+            "7 veces",
+            "9 veces",
+            "11 veces"
+          ],
+          "pregunta": "¿Cuántas veces muere Subaru en el Arco 1?",
+          "respuesta_correcta": "7 veces"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre de la tienda donde trabaja Subaru es ___",
+          "respuesta_correcta": "Kararagi"
+        },
+        "mencionar": {
+          "cantidad": 3,
+          "categoria": "brujas",
+          "pregunta": "Menciona 3 de las brujas del pecado",
+          "respuesta_correcta": "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
+        }
+      }
+    },
+    "Rent a GF": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Por qué Kazuya rompió con Mami?",
+          "respuesta_correcta": "Mami lo dejó"
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Chizuru",
+            "Mami",
+            "Ruka",
+            "Sumi"
+          ],
+          "pregunta": "¿Cómo se llama la novia de alquiler principal?",
+          "respuesta_correcta": "Chizuru"
+        },
+        "verdadero_falso": {
+          "pregunta": "Kazuya alquila una novia a través de una app",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Medicina",
+            "Actuación",
+            "Derecho",
+            "Literatura"
+          ],
+          "pregunta": "¿Qué estudia Chizuru en la universidad?",
+          "respuesta_correcta": "Actuación"
+        }
+      },
+      "intermedia": {
+        "completar_espacios": {
+          "pregunta": "El nombre real de Chizuru es ___",
+          "respuesta_correcta": "Chizuru Ichinose"
+        },
+        "mencionar": {
+          "cantidad": 2,
+          "categoria": "novias",
+          "pregunta": "Menciona 2 novias de alquiler del anime",
+          "respuesta_correcta": "Chizuru, Mami, Ruka, Sumi"
+        }
+      }
+    },
     "Shingeki": {
       "dificil": {
         "abierta": {
@@ -82,447 +556,39 @@
         }
       }
     },
-    "Oshi no ko": {
-      "facil": {
-        "completar_espacios": {
-          "pregunta": "El nombre del grupo de idols de Ai es ___",
-          "respuesta_correcta": "B-Komachi"
-        },
-        "verdadero_falso": {
-          "pregunta": "Ai Hoshino es la madre de Aqua y Ruby",
-          "respuesta_correcta": "Verdadero"
-        }
-      },
-      "intermedia": {
-        "multiple_choice": {
-          "pregunta": "¿Qué profesión tiene Gorou antes de reencarnar?",
-          "opciones": [
-            "Actor",
-            "Médico rural",
-            "Idol",
-            "Productor"
-          ],
-          "respuesta_correcta": "Médico rural"
-        },
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del padre biológico de Aqua y Ruby?",
-          "respuesta_correcta": "Desconocido"
-        }
-      },
-      "dificil": {
-        "mencionar": {
-          "pregunta": "Menciona 2 miembros originales de B-Komachi",
-          "cantidad": 2,
-          "categoria": "miembros",
-          "respuesta_correcta": "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
-        }
-      },
-      "imposible": {
-        "verdadero_falso": {
-          "pregunta": "Ruby reencarnó con recuerdos de su vida pasada como Sarina",
-          "respuesta_correcta": "Falso"
-        }
-      }
-    },
-    "Re:Zero": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "¿Subaru tiene el poder del Retorno por la Muerte?",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué magia usa Emilia principalmente?",
-          "opciones": [
-            "Fuego",
-            "Agua",
-            "Hielo/Espíritus",
-            "Tierra"
-          ],
-          "respuesta_correcta": "Hielo/Espíritus"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre de la tienda donde trabaja Subaru es ___",
-          "respuesta_correcta": "Kararagi"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 3 de las brujas del pecado",
-          "cantidad": 3,
-          "categoria": "brujas",
-          "respuesta_correcta": "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
-          "respuesta_correcta": "Regulus Corneas"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántas veces muere Subaru en el Arco 1?",
-          "opciones": [
-            "5 veces",
-            "7 veces",
-            "9 veces",
-            "11 veces"
-          ],
-          "respuesta_correcta": "7 veces"
-        }
-      }
-    },
-    "Mushoku": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Rudeus Greyrat es reencarnado en otro mundo",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Quién es la primera maestra de magia de Rudeus?",
-          "opciones": [
-            "Roxy",
-            "Sylphiette",
-            "Eris",
-            "Lilia"
-          ],
-          "respuesta_correcta": "Roxy"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del padre de Rudeus es ___",
-          "respuesta_correcta": "Paul"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 esposas de Rudeus",
-          "cantidad": 2,
-          "categoria": "esposas",
-          "respuesta_correcta": "Sylphiette, Eris, Roxy"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre completo de Rudeus en su vida pasada?",
-          "respuesta_correcta": "No se revela"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué nivel de magia alcanza Rudeus?",
-          "opciones": [
-            "Nivel Santo",
-            "Nivel Rey",
-            "Nivel Emperador",
-            "Nivel Dios"
-          ],
-          "respuesta_correcta": "Nivel Santo"
-        }
-      }
-    },
-    "Rent a GF": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Kazuya alquila una novia a través de una app",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Cómo se llama la novia de alquiler principal?",
-          "opciones": [
-            "Chizuru",
-            "Mami",
-            "Ruka",
-            "Sumi"
-          ],
-          "respuesta_correcta": "Chizuru"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre real de Chizuru es ___",
-          "respuesta_correcta": "Chizuru Ichinose"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 novias de alquiler del anime",
-          "cantidad": 2,
-          "categoria": "novias",
-          "respuesta_correcta": "Chizuru, Mami, Ruka, Sumi"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Por qué Kazuya rompió con Mami?",
-          "respuesta_correcta": "Mami lo dejó"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué estudia Chizuru en la universidad?",
-          "opciones": [
-            "Medicina",
-            "Actuación",
-            "Derecho",
-            "Literatura"
-          ],
-          "respuesta_correcta": "Actuación"
-        }
-      }
-    },
-    "Dragon Ball": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Goku es un Saiyajin",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Cómo se llama el hijo de Goku?",
-          "opciones": [
-            "Gohan",
-            "Goten",
-            "Trunks",
-            "Vegeta Jr"
-          ],
-          "respuesta_correcta": "Gohan"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El planeta natal de Goku es ___",
-          "respuesta_correcta": "Vegeta"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 transformaciones de Goku",
-          "cantidad": 2,
-          "categoria": "transformaciones",
-          "respuesta_correcta": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
-          "respuesta_correcta": "Kaio-sama del Norte"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántas esferas del dragón existen en la Tierra?",
-          "opciones": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "respuesta_correcta": "7"
-        }
-      }
-    },
-    "Naruto": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Naruto quiere ser Hokage",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué bestia está sellada dentro de Naruto?",
-          "opciones": [
-            "Kyubi",
-            "Shukaku",
-            "Matatabi",
-            "Isobu"
-          ],
-          "respuesta_correcta": "Kyubi"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del sensei de Naruto es ___",
-          "respuesta_correcta": "Kakashi"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 miembros del Equipo 7",
-          "cantidad": 2,
-          "categoria": "miembros",
-          "respuesta_correcta": "Naruto, Sasuke, Sakura, Kakashi"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del padre de Naruto?",
-          "respuesta_correcta": "Minato Namikaze"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué técnica prohibida aprendió Naruto al inicio?",
-          "opciones": [
-            "Kage Bunshin",
-            "Rasengan",
-            "Chidori",
-            "Sharingan"
-          ],
-          "respuesta_correcta": "Kage Bunshin"
-        }
-      }
-    },
-    "Bleach": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Ichigo Kurosaki es un Shinigami sustituto",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Cómo se llama la espada de Ichigo?",
-          "opciones": [
-            "Zangetsu",
-            "Senbonzakura",
-            "Hyorinmaru",
-            "Zabimaru"
-          ],
-          "respuesta_correcta": "Zangetsu"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre de la amiga de Ichigo es ___",
-          "respuesta_correcta": "Rukia"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 capitanes del Gotei 13",
-          "cantidad": 2,
-          "categoria": "capitanes",
-          "respuesta_correcta": "Byakuya, Kenpachi, Toshiro, Yamamoto, Ukitake, Kyoraku"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
-          "respuesta_correcta": "Grand Fisher"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué número de división es la de Byakuya?",
-          "opciones": [
-            "División 6",
-            "División 5",
-            "División 10",
-            "División 11"
-          ],
-          "respuesta_correcta": "División 6"
-        }
-      }
-    },
-    "Chainsaw": {
-      "facil": {
-        "multiple_choice": {
-          "pregunta": "¿Qué demonio es Denji?",
-          "opciones": [
-            "Demonio Motosierra",
-            "Demonio Sangre",
-            "Demonio Futuro",
-            "Demonio Fuego"
-          ],
-          "respuesta_correcta": "Demonio Motosierra"
-        },
-        "verdadero_falso": {
-          "pregunta": "Makima es la Demonio del Control",
-          "respuesta_correcta": "Verdadero"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del perro de Denji es ___",
-          "respuesta_correcta": "Pochita"
-        },
-        "abierta": {
-          "pregunta": "¿Qué demonio mata a Himeno?",
-          "respuesta_correcta": "Demonio Gun"
-        }
-      },
-      "dificil": {
-        "mencionar": {
-          "pregunta": "Menciona 2 Demonios Primordiales",
-          "cantidad": 2,
-          "categoria": "demonios",
-          "respuesta_correcta": "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué contrato hace Aki con el Demonio Futuro?",
-          "opciones": [
-            "Ojo derecho",
-            "Ojo izquierdo",
-            "Brazo derecho",
-            "Pierna izquierda"
-          ],
-          "respuesta_correcta": "Ojo derecho"
-        }
-      }
-    },
-    "Jujutsu": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Yuji Itadori es el recipiente de Sukuna",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué técnica usa Megumi?",
-          "opciones": [
-            "Técnica de Sombras",
-            "Técnica de Maldición",
-            "Técnica de Expansión",
-            "Técnica de Dominio"
-          ],
-          "respuesta_correcta": "Técnica de Sombras"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del director de Jujutsu High es ___",
-          "respuesta_correcta": "Masamichi Yaga"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 de los Pilares de la Sociedad Jujutsu",
-          "cantidad": 2,
-          "categoria": "pilares",
-          "respuesta_correcta": "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre completo de Gojo?",
-          "respuesta_correcta": "Satoru Gojo"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué dedo de Sukuna consume Yuji primero?",
-          "opciones": [
-            "Índice derecho",
-            "Índice izquierdo",
-            "Corazón",
-            "Pulgar"
-          ],
-          "respuesta_correcta": "Índice derecho"
-        }
-      }
-    },
     "Uma Musume": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Cuál es el nombre del entrenador principal?",
+          "respuesta_correcta": "No tiene nombre específico"
+        }
+      },
       "facil": {
-        "verdadero_falso": {
-          "pregunta": "Las Uma Musume son chicas caballo",
-          "respuesta_correcta": "Verdadero"
-        },
         "multiple_choice": {
-          "pregunta": "¿Qué deporte practican las Uma Musume?",
           "opciones": [
             "Carreras",
             "Fútbol",
             "Natación",
             "Baloncesto"
           ],
+          "pregunta": "¿Qué deporte practican las Uma Musume?",
           "respuesta_correcta": "Carreras"
+        },
+        "verdadero_falso": {
+          "pregunta": "Las Uma Musume son chicas caballo",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Japan Cup",
+            "Derby",
+            "Satsuki Sho",
+            "Kikuka Sho"
+          ],
+          "pregunta": "¿Qué carrera es la más prestigiosa?",
+          "respuesta_correcta": "Japan Cup"
         }
       },
       "intermedia": {
@@ -531,76 +597,10 @@
           "respuesta_correcta": "Academy"
         },
         "mencionar": {
-          "pregunta": "Menciona 2 Uma Musume famosas",
           "cantidad": 2,
           "categoria": "personajes",
+          "pregunta": "Menciona 2 Uma Musume famosas",
           "respuesta_correcta": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del entrenador principal?",
-          "respuesta_correcta": "No tiene nombre específico"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué carrera es la más prestigiosa?",
-          "opciones": [
-            "Japan Cup",
-            "Derby",
-            "Satsuki Sho",
-            "Kikuka Sho"
-          ],
-          "respuesta_correcta": "Japan Cup"
-        }
-      }
-    },
-    "One Piece": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Luffy quiere ser el Rey de los Piratas",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué fruta comió Luffy?",
-          "opciones": [
-            "Gomu Gomu no Mi",
-            "Mera Mera no Mi",
-            "Hie Hie no Mi",
-            "Yami Yami no Mi"
-          ],
-          "respuesta_correcta": "Gomu Gomu no Mi"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del primer barco de los Sombrero de Paja es ___",
-          "respuesta_correcta": "Going Merry"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 miembros de los Sombrero de Paja",
-          "cantidad": 2,
-          "categoria": "tripulantes",
-          "respuesta_correcta": "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el sueño de Zoro?",
-          "respuesta_correcta": "Ser el mejor espadachín del mundo"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántos Yonko existen?",
-          "opciones": [
-            "3",
-            "4",
-            "5",
-            "6"
-          ],
-          "respuesta_correcta": "4"
         }
       }
     }
