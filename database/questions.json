@@ -1,15 +1,52 @@
 {
   "animes": {
     "Shingeki": {
+      "dificil": {
+        "abierta": {
+          "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
+          "respuesta_correcta": "Zeke Yeager"
+        }
+      },
       "facil": {
+        "abierta": {
+          "pregunta": "Kazuya tiene una licencia de conducir?",
+          "respuesta_correcta": "si"
+        },
+        "completar_espacios": {
+          "pregunta": "Xddddd",
+          "respuesta_correcta": "123"
+        },
+        "mencionar": {
+          "cantidad": 3,
+          "categoria": "si",
+          "pregunta": "Chizuru es virgen?",
+          "respuesta_correcta": ""
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Titán Colosal",
+            "Titán de Ataque",
+            "Titán Acorazado",
+            "Titán Bestia"
+          ],
+          "pregunta": "¿Qué tipo de titán es Eren inicialmente?",
+          "respuesta_correcta": "Titán de Ataque"
+        },
         "verdadero_falso": {
           "pregunta": "¿Eren Yeager es el protagonista de Shingeki no Kyojin?",
           "respuesta_correcta": "Verdadero"
-        },
+        }
+      },
+      "imposible": {
         "multiple_choice": {
-          "pregunta": "¿Qué tipo de titán es Eren inicialmente?",
-          "opciones": ["Titán Colosal", "Titán de Ataque", "Titán Acorazado", "Titán Bestia"],
-          "respuesta_correcta": "Titán de Ataque"
+          "opciones": [
+            "5 años",
+            "10 años",
+            "15 años",
+            "20 años"
+          ],
+          "pregunta": "¿Cuántos años han pasado desde la caída del Muro María?",
+          "respuesta_correcta": "5 años"
         }
       },
       "intermedia": {
@@ -18,23 +55,14 @@
           "respuesta_correcta": "Levi"
         },
         "mencionar": {
-          "pregunta": "Menciona 2 de los 9 titanes",
           "cantidad": 2,
           "categoria": "titanes",
+          "pregunta": "Menciona 2 de los 9 titanes",
           "respuesta_correcta": "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
-          "respuesta_correcta": "Zeke Yeager"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántos años han pasado desde la caída del Muro María?",
-          "opciones": ["5 años", "10 años", "15 años", "20 años"],
-          "respuesta_correcta": "5 años"
+        },
+        "verdadero_falso": {
+          "pregunta": "Kazuya vivio en Royal hill nerima?",
+          "respuesta_correcta": "Verdadero"
         }
       }
     },
@@ -52,7 +80,12 @@
       "intermedia": {
         "multiple_choice": {
           "pregunta": "¿Qué profesión tiene Gorou antes de reencarnar?",
-          "opciones": ["Actor", "Médico rural", "Idol", "Productor"],
+          "opciones": [
+            "Actor",
+            "Médico rural",
+            "Idol",
+            "Productor"
+          ],
           "respuesta_correcta": "Médico rural"
         },
         "abierta": {
@@ -83,7 +116,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Qué magia usa Emilia principalmente?",
-          "opciones": ["Fuego", "Agua", "Hielo/Espíritus", "Tierra"],
+          "opciones": [
+            "Fuego",
+            "Agua",
+            "Hielo/Espíritus",
+            "Tierra"
+          ],
           "respuesta_correcta": "Hielo/Espíritus"
         }
       },
@@ -108,7 +146,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Cuántas veces muere Subaru en el Arco 1?",
-          "opciones": ["5 veces", "7 veces", "9 veces", "11 veces"],
+          "opciones": [
+            "5 veces",
+            "7 veces",
+            "9 veces",
+            "11 veces"
+          ],
           "respuesta_correcta": "7 veces"
         }
       }
@@ -121,7 +164,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Quién es la primera maestra de magia de Rudeus?",
-          "opciones": ["Roxy", "Sylphiette", "Eris", "Lilia"],
+          "opciones": [
+            "Roxy",
+            "Sylphiette",
+            "Eris",
+            "Lilia"
+          ],
           "respuesta_correcta": "Roxy"
         }
       },
@@ -146,7 +194,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué nivel de magia alcanza Rudeus?",
-          "opciones": ["Nivel Santo", "Nivel Rey", "Nivel Emperador", "Nivel Dios"],
+          "opciones": [
+            "Nivel Santo",
+            "Nivel Rey",
+            "Nivel Emperador",
+            "Nivel Dios"
+          ],
           "respuesta_correcta": "Nivel Santo"
         }
       }
@@ -159,7 +212,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Cómo se llama la novia de alquiler principal?",
-          "opciones": ["Chizuru", "Mami", "Ruka", "Sumi"],
+          "opciones": [
+            "Chizuru",
+            "Mami",
+            "Ruka",
+            "Sumi"
+          ],
           "respuesta_correcta": "Chizuru"
         }
       },
@@ -184,7 +242,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué estudia Chizuru en la universidad?",
-          "opciones": ["Medicina", "Actuación", "Derecho", "Literatura"],
+          "opciones": [
+            "Medicina",
+            "Actuación",
+            "Derecho",
+            "Literatura"
+          ],
           "respuesta_correcta": "Actuación"
         }
       }
@@ -197,7 +260,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Cómo se llama el hijo de Goku?",
-          "opciones": ["Gohan", "Goten", "Trunks", "Vegeta Jr"],
+          "opciones": [
+            "Gohan",
+            "Goten",
+            "Trunks",
+            "Vegeta Jr"
+          ],
           "respuesta_correcta": "Gohan"
         }
       },
@@ -222,7 +290,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Cuántas esferas del dragón existen en la Tierra?",
-          "opciones": ["5", "6", "7", "8"],
+          "opciones": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
           "respuesta_correcta": "7"
         }
       }
@@ -235,7 +308,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Qué bestia está sellada dentro de Naruto?",
-          "opciones": ["Kyubi", "Shukaku", "Matatabi", "Isobu"],
+          "opciones": [
+            "Kyubi",
+            "Shukaku",
+            "Matatabi",
+            "Isobu"
+          ],
           "respuesta_correcta": "Kyubi"
         }
       },
@@ -260,7 +338,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué técnica prohibida aprendió Naruto al inicio?",
-          "opciones": ["Kage Bunshin", "Rasengan", "Chidori", "Sharingan"],
+          "opciones": [
+            "Kage Bunshin",
+            "Rasengan",
+            "Chidori",
+            "Sharingan"
+          ],
           "respuesta_correcta": "Kage Bunshin"
         }
       }
@@ -273,7 +356,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Cómo se llama la espada de Ichigo?",
-          "opciones": ["Zangetsu", "Senbonzakura", "Hyorinmaru", "Zabimaru"],
+          "opciones": [
+            "Zangetsu",
+            "Senbonzakura",
+            "Hyorinmaru",
+            "Zabimaru"
+          ],
           "respuesta_correcta": "Zangetsu"
         }
       },
@@ -298,7 +386,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué número de división es la de Byakuya?",
-          "opciones": ["División 6", "División 5", "División 10", "División 11"],
+          "opciones": [
+            "División 6",
+            "División 5",
+            "División 10",
+            "División 11"
+          ],
           "respuesta_correcta": "División 6"
         }
       }
@@ -307,7 +400,12 @@
       "facil": {
         "multiple_choice": {
           "pregunta": "¿Qué demonio es Denji?",
-          "opciones": ["Demonio Motosierra", "Demonio Sangre", "Demonio Futuro", "Demonio Fuego"],
+          "opciones": [
+            "Demonio Motosierra",
+            "Demonio Sangre",
+            "Demonio Futuro",
+            "Demonio Fuego"
+          ],
           "respuesta_correcta": "Demonio Motosierra"
         },
         "verdadero_falso": {
@@ -336,7 +434,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué contrato hace Aki con el Demonio Futuro?",
-          "opciones": ["Ojo derecho", "Ojo izquierdo", "Brazo derecho", "Pierna izquierda"],
+          "opciones": [
+            "Ojo derecho",
+            "Ojo izquierdo",
+            "Brazo derecho",
+            "Pierna izquierda"
+          ],
           "respuesta_correcta": "Ojo derecho"
         }
       }
@@ -349,7 +452,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Qué técnica usa Megumi?",
-          "opciones": ["Técnica de Sombras", "Técnica de Maldición", "Técnica de Expansión", "Técnica de Dominio"],
+          "opciones": [
+            "Técnica de Sombras",
+            "Técnica de Maldición",
+            "Técnica de Expansión",
+            "Técnica de Dominio"
+          ],
           "respuesta_correcta": "Técnica de Sombras"
         }
       },
@@ -374,7 +482,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué dedo de Sukuna consume Yuji primero?",
-          "opciones": ["Índice derecho", "Índice izquierdo", "Corazón", "Pulgar"],
+          "opciones": [
+            "Índice derecho",
+            "Índice izquierdo",
+            "Corazón",
+            "Pulgar"
+          ],
           "respuesta_correcta": "Índice derecho"
         }
       }
@@ -387,7 +500,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Qué deporte practican las Uma Musume?",
-          "opciones": ["Carreras", "Fútbol", "Natación", "Baloncesto"],
+          "opciones": [
+            "Carreras",
+            "Fútbol",
+            "Natación",
+            "Baloncesto"
+          ],
           "respuesta_correcta": "Carreras"
         }
       },
@@ -412,7 +530,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Qué carrera es la más prestigiosa?",
-          "opciones": ["Japan Cup", "Derby", "Satsuki Sho", "Kikuka Sho"],
+          "opciones": [
+            "Japan Cup",
+            "Derby",
+            "Satsuki Sho",
+            "Kikuka Sho"
+          ],
           "respuesta_correcta": "Japan Cup"
         }
       }
@@ -425,7 +548,12 @@
         },
         "multiple_choice": {
           "pregunta": "¿Qué fruta comió Luffy?",
-          "opciones": ["Gomu Gomu no Mi", "Mera Mera no Mi", "Hie Hie no Mi", "Yami Yami no Mi"],
+          "opciones": [
+            "Gomu Gomu no Mi",
+            "Mera Mera no Mi",
+            "Hie Hie no Mi",
+            "Yami Yami no Mi"
+          ],
           "respuesta_correcta": "Gomu Gomu no Mi"
         }
       },
@@ -450,7 +578,12 @@
       "imposible": {
         "multiple_choice": {
           "pregunta": "¿Cuántos Yonko existen?",
-          "opciones": ["3", "4", "5", "6"],
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
           "respuesta_correcta": "4"
         }
       }
