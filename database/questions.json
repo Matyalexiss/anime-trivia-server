@@ -5,6 +5,12 @@
         "abierta": {
           "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
           "respuesta_correcta": "Zeke Yeager"
+        },
+        "mencionar": {
+          "cantidad": 3,
+          "categoria": "",
+          "pregunta": "asfdds",
+          "respuesta_correcta": ""
         }
       },
       "facil": {
