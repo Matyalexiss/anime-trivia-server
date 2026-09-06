@@ -442,28 +442,92 @@
     },
     "Rent a GF": {
       "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
         "completar_oracion": {
-          "pregunta": "¿Por qué Kazuya rompió con Mami?",
-          "respuesta_correcta": "Mami lo dejó"
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Dos: uno en el pie y otro en el muslo.",
+            "Uno en el pie.",
+            "Uno en la entrepierna.",
+            "Ninguno, confirmado por Mini Yaemori en el episodio 318 del manga, lo que simboliza su perfección como novia ideal."
+          ],
+          "pregunta": "¿Cuántos lunares tiene Chizuru Ichinose?",
+          "respuesta_correcta": "Uno en la entrepierna."
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": ""
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Plana.",
+            "Estados Unidos.",
+            "Ex novio."
+          ],
+          "respuesta_correcta": "Mami Nanami"
+        },
+        "completar_oracion": {
+          "pregunta": "El arco de película fue adaptado en la temporada número _____ del anime.",
+          "respuesta_correcta": "3"
+        },
         "multiple_choice": {
           "opciones": [
-            "Chizuru",
-            "Mami",
-            "Ruka",
-            "Sumi"
+            "Chizuru Ichinose",
+            "Chizuru Mizuhara",
+            "Chizuru Nanami",
+            "Chizuru Sakurasawa"
           ],
-          "pregunta": "¿Cómo se llama la novia de alquiler principal?",
-          "respuesta_correcta": "Chizuru"
+          "pregunta": "¿Cuál es el nombre original de Chizuru, la protagonista principal?",
+          "respuesta_correcta": "Chizuru Ichinose"
+        },
+        "ordenar": {
+          "elementos": [
+            "Kazuya Kinoshita.",
+            "Mami Nanami.",
+            "Chizuru Ichinose.",
+            "Ruka Sarashina."
+          ],
+          "pregunta": "Ordena los siguientes personajes en orden de aparición:"
         },
         "verdadero_falso": {
-          "pregunta": "Kazuya alquila una novia a través de una app",
-          "respuesta_correcta": "Verdadero"
+          "pregunta": "El color de cabello original del protagonista, Kazuya Kinoshita, es rubio.",
+          "respuesta_correcta": "Falso"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
         "multiple_choice": {
           "opciones": [
             "Medicina",
@@ -473,20 +537,56 @@
           ],
           "pregunta": "¿Qué estudia Chizuru en la universidad?",
           "respuesta_correcta": "Actuación"
+        },
+        "ordenar": {
+          "elementos": [
+            "Kazuya Kinoshita",
+            "Chizuru Ichinose",
+            "Mini Yaemori",
+            "Sumi Sakurasawa"
+          ],
+          "pregunta": "Ordena de mayor a menor según la cantidad de veces que estos personajes aparecen en las portadas y contraportadas de los volúmenes de Rent a Girlfriend, hasta el número 47."
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
         "adivinar_personaje": {
           "pistas": [
-            "Menciona 2 novias de alquiler del anime",
-            "Pista 2...",
-            "Pista 3..."
+            "Meta.",
+            "Actriz.",
+            "Película."
           ],
-          "respuesta_correcta": "Chizuru, Mami, Ruka, Sumi"
+          "respuesta_correcta": "Sayuri Ichinose"
         },
         "completar_oracion": {
-          "pregunta": "El nombre real de Chizuru es ___",
-          "respuesta_correcta": "Chizuru Ichinose"
+          "pregunta": "Chizuru Mizuhara pertenece a una agencia de novias de alquiler llamada _____.",
+          "respuesta_correcta": "Diamond"
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Shun Kuribayashi.",
+            "Yoshiaki Kibe.",
+            "Kazuo Nanami.",
+            "Nagomi Kinoshita."
+          ],
+          "pregunta": "Uno de los siguientes personajes no pertenece al cast de Rent a Girlfriend, ¿cuál es?",
+          "respuesta_correcta": "Kazuo Nanami"
+        },
+        "ordenar": {
+          "elementos": [
+            "Kazuya Kinoshita.",
+            "Fumiki, el niño que alquila a Sumi en su Spin-off.",
+            "Nagomi Kinoshita.",
+            "Umi Nakano."
+          ],
+          "pregunta": "Ordena los siguientes personajes de mayor a menor según cuánto dinero conocido invirtieron en novias de alquiler:"
+        },
+        "verdadero_falso": {
+          "pregunta": "En el arco del Paraíso Hawaiiano, Kazuya, Chizuru, Mami, Mini, los amigos de Kazuya y su familia viajan a un Resort Hawaiiano de vacaciones.",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
