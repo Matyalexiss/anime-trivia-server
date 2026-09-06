@@ -2,12 +2,57 @@
   "animes": {
     "Bleach": {
       "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
           "respuesta_correcta": "Grand Fisher"
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
             "Zangetsu",
@@ -18,12 +63,33 @@
           "pregunta": "¿Cómo se llama la espada de Ichigo?",
           "respuesta_correcta": "Zangetsu"
         },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
         "verdadero_falso": {
           "pregunta": "Ichigo Kurosaki es un Shinigami sustituto",
           "respuesta_correcta": "Verdadero"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuesta_correcta": ""
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuesta_correcta": ""
+        },
         "multiple_choice": {
           "opciones": [
             "División 6",
@@ -33,6 +99,19 @@
           ],
           "pregunta": "¿Qué número de división es la de Byakuya?",
           "respuesta_correcta": "División 6"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
@@ -47,6 +126,29 @@
         "completar_oracion": {
           "pregunta": "El nombre de la amiga de Ichigo es ___",
           "respuesta_correcta": "Rukia"
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
