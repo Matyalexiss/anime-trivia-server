@@ -8,11 +8,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            ""
+          ]
         },
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
-          "respuesta_correcta": "Grand Fisher"
+          "respuestas_correctas": [
+            "Grand Fisher"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -45,11 +49,17 @@
             "Naranja",
             "Curación"
           ],
-          "respuesta_correcta": "Orihime Inoue"
+          "respuestas_correctas": [
+            "Orihime Inoue",
+            "Orihime",
+            "Inoue"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El capitán de la 11° División del Gotei 13 actual se llama Kenpachi _____.",
-          "respuesta_correcta": "Zaraki"
+          "respuestas_correctas": [
+            "Zaraki"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -82,11 +92,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            ""
+          ]
         },
         "completar_oracion": {
           "pregunta": "Completa la oración: ___",
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            ""
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -119,11 +133,20 @@
             "Saliva",
             "Ex. Espada"
           ],
-          "respuesta_correcta": "Nelliel Tu Odelschwanck"
+          "respuestas_correctas": [
+            "Nelliel Tu Odelschwanck",
+            "Nelliel",
+            "Neliel",
+            "Odelschwanck"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre de la amiga de la infancia de Ichigo es _____.",
-          "respuesta_correcta": "Tatsuki Arisawa"
+          "respuestas_correctas": [
+            "Tatsuki Arisawa",
+            "Tatsuki",
+            "Arisawa"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -158,7 +181,9 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
+          "respuestas_correctas": [
+            "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
+          ]
         }
       },
       "facil": {
@@ -192,7 +217,9 @@
       "intermedia": {
         "completar_oracion": {
           "pregunta": "¿Qué demonio mata a Himeno?",
-          "respuesta_correcta": "Demonio Gun"
+          "respuestas_correctas": [
+            "Demonio Gun"
+          ]
         }
       }
     },
@@ -200,7 +227,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
-          "respuesta_correcta": "Kaio-sama del Norte"
+          "respuestas_correctas": [
+            "Kaio-sama del Norte"
+          ]
         }
       },
       "facil": {
@@ -238,11 +267,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
+          "respuestas_correctas": [
+            "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El planeta natal de Goku es ___",
-          "respuesta_correcta": "Vegeta"
+          "respuestas_correctas": [
+            "Vegeta"
+          ]
         }
       }
     },
@@ -250,7 +283,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre completo de Gojo?",
-          "respuesta_correcta": "Satoru Gojo"
+          "respuestas_correctas": [
+            "Satoru Gojo"
+          ]
         }
       },
       "facil": {
@@ -288,11 +323,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
+          "respuestas_correctas": [
+            "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre del director de Jujutsu High es ___",
-          "respuesta_correcta": "Masamichi Yaga"
+          "respuestas_correctas": [
+            "Masamichi Yaga"
+          ]
         }
       }
     },
@@ -300,7 +339,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre completo de Rudeus en su vida pasada?",
-          "respuesta_correcta": "No se revela"
+          "respuestas_correctas": [
+            "No se revela"
+          ]
         }
       },
       "facil": {
@@ -338,11 +379,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Sylphiette, Eris, Roxy"
+          "respuestas_correctas": [
+            "Sylphiette, Eris, Roxy"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre del padre de Rudeus es ___",
-          "respuesta_correcta": "Paul"
+          "respuestas_correctas": [
+            "Paul"
+          ]
         }
       }
     },
@@ -350,7 +395,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del padre de Naruto?",
-          "respuesta_correcta": "Minato Namikaze"
+          "respuestas_correctas": [
+            "Minato Namikaze"
+          ]
         }
       },
       "facil": {
@@ -388,11 +435,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Naruto, Sasuke, Sakura, Kakashi"
+          "respuestas_correctas": [
+            "Naruto, Sasuke, Sakura, Kakashi"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre del sensei de Naruto es ___",
-          "respuesta_correcta": "Kakashi"
+          "respuestas_correctas": [
+            "Kakashi"
+          ]
         }
       }
     },
@@ -400,7 +451,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el sueño de Zoro?",
-          "respuesta_correcta": "Ser el mejor espadachín del mundo"
+          "respuestas_correctas": [
+            "Ser el mejor espadachín del mundo"
+          ]
         }
       },
       "facil": {
@@ -438,11 +491,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
+          "respuestas_correctas": [
+            "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre del primer barco de los Sombrero de Paja es ___",
-          "respuesta_correcta": "Going Merry"
+          "respuestas_correctas": [
+            "Going Merry"
+          ]
         }
       }
     },
@@ -454,13 +511,17 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
+          "respuestas_correctas": [
+            "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
+          ]
         }
       },
       "facil": {
         "completar_oracion": {
           "pregunta": "El nombre del grupo de idols de Ai es ___",
-          "respuesta_correcta": "B-Komachi"
+          "respuestas_correctas": [
+            "B-Komachi"
+          ]
         },
         "verdadero_falso": {
           "pregunta": "Ai Hoshino es la madre de Aqua y Ruby",
@@ -476,7 +537,9 @@
       "intermedia": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del padre biológico de Aqua y Ruby?",
-          "respuesta_correcta": "Desconocido"
+          "respuestas_correctas": [
+            "Desconocido"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -494,7 +557,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
-          "respuesta_correcta": "Regulus Corneas"
+          "respuestas_correctas": [
+            "Regulus Corneas"
+          ]
         }
       },
       "facil": {
@@ -532,11 +597,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
+          "respuestas_correctas": [
+            "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre de la tienda donde trabaja Subaru es ___",
-          "respuesta_correcta": "Kararagi"
+          "respuestas_correctas": [
+            "Kararagi"
+          ]
         }
       }
     },
@@ -544,15 +613,21 @@
       "dificil": {
         "adivinar_personaje": {
           "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
+            "Evolución",
+            "Mago",
+            "Foto de perfil"
           ],
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            "Lungfish",
+            "Pez pulmonado",
+            "Haigyo"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre del hipotético hijo entre Kazuya y Mami sería _____.",
-          "respuesta_correcta": "Maya"
+          "respuestas_correctas": [
+            "Maya"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -585,11 +660,16 @@
             "Estados Unidos.",
             "Ex."
           ],
-          "respuesta_correcta": "Mami Nanami"
+          "respuestas_correctas": [
+            "Mami Nanami",
+            "Mami"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El arco de película fue adaptado en la temporada número _____ del anime.",
-          "respuesta_correcta": "3"
+          "respuestas_correctas": [
+            "3"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -618,15 +698,21 @@
       "imposible": {
         "adivinar_personaje": {
           "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
+            "Gafas",
+            "Ultramarina",
+            "Club de cine"
           ],
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            "Tabuse"
+          ]
         },
         "completar_oracion": {
-          "pregunta": "",
-          "respuesta_correcta": ""
+          "pregunta": "La empresa donde Ruka Sarashina se alquilaba es conocida como _____.",
+          "respuestas_correctas": [
+            "Rental Kanojo Maple",
+            "Maple",
+            "Meipuru"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -640,16 +726,16 @@
         },
         "ordenar": {
           "elementos": [
-            "Ruka se marea jugando a la pelota.",
-            "Katsuhito fallece en un accidente de tránsito.",
-            "Kazuya se tiñe el cabello por primera vez.",
-            ""
+            "Sumi conoce a Chizuru.",
+            "Sumi conoce a Ruka.",
+            "Sumi conoce a Mami.",
+            "Sumi conoce a Kazuya."
           ],
-          "pregunta": ""
+          "pregunta": "Ordena los siguientes elementos de la historia de Sumi cronológicamente:"
         },
         "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
+          "pregunta": "En los volúmenes físicos de Rent a Girlfriend todas las escenas de desnudez se encuentran sin censura, pero incluso en la versión digital se puede ver explícitamente a Chizuru sin ropa en el episodio 39.5.",
+          "respuesta_correcta": "Falso"
         }
       },
       "intermedia": {
@@ -659,11 +745,17 @@
             "Actriz.",
             "Película."
           ],
-          "respuesta_correcta": "Sayuri Ichinose"
+          "respuestas_correctas": [
+            "Sayuri Ichinose",
+            "Sayuri",
+            ""
+          ]
         },
         "completar_oracion": {
           "pregunta": "Chizuru Mizuhara pertenece a una agencia de novias de alquiler llamada _____.",
-          "respuesta_correcta": "Diamond"
+          "respuestas_correctas": [
+            "Diamond"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -698,11 +790,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            ""
+          ]
         },
         "completar_oracion": {
           "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
-          "respuesta_correcta": "Zeke Yeager"
+          "respuestas_correctas": [
+            "Zeke Yeager"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -735,11 +831,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "si."
+          "respuestas_correctas": [
+            "si."
+          ]
         },
         "completar_oracion": {
           "pregunta": "Kazuya tiene una licencia de conducir?",
-          "respuesta_correcta": "si"
+          "respuestas_correctas": [
+            "si"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -772,11 +872,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            ""
+          ]
         },
         "completar_oracion": {
           "pregunta": "Completa la oración: ___",
-          "respuesta_correcta": ""
+          "respuestas_correctas": [
+            ""
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -809,11 +913,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+          "respuestas_correctas": [
+            "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre del escuadrón de élite es ___",
-          "respuesta_correcta": "Levi"
+          "respuestas_correctas": [
+            "Levi"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -844,7 +952,9 @@
       "dificil": {
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del entrenador principal?",
-          "respuesta_correcta": "No tiene nombre específico"
+          "respuestas_correctas": [
+            "No tiene nombre específico"
+          ]
         }
       },
       "facil": {
@@ -882,11 +992,15 @@
             "Pista 2...",
             "Pista 3..."
           ],
-          "respuesta_correcta": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
+          "respuestas_correctas": [
+            "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
+          ]
         },
         "completar_oracion": {
           "pregunta": "El nombre de la academia es Tracen ___",
-          "respuesta_correcta": "Academy"
+          "respuestas_correctas": [
+            "Academy"
+          ]
         }
       }
     }
