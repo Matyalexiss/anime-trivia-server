@@ -451,8 +451,8 @@
           "respuesta_correcta": ""
         },
         "completar_oracion": {
-          "pregunta": "",
-          "respuesta_correcta": ""
+          "pregunta": "El nombre del hipotético hijo entre Kazuya y Mami sería _____.",
+          "respuesta_correcta": "Maya"
         },
         "multiple_choice": {
           "opciones": [
@@ -461,20 +461,20 @@
             "Uno en la entrepierna.",
             "Ninguno, confirmado por Mini Yaemori en el episodio 318 del manga, lo que simboliza su perfección como novia ideal."
           ],
-          "pregunta": "¿Cuántos lunares tiene Chizuru Ichinose?",
+          "pregunta": "¿Cuántos lunares tiene Chizuru Ichinose en total?",
           "respuesta_correcta": "Uno en la entrepierna."
         },
         "ordenar": {
           "elementos": [
-            "",
-            "",
-            "",
-            ""
+            "Kazuya Kinoshita.",
+            "Chizuru Ichinose.",
+            "Mini Yaemori.",
+            "Sumi Sakurasawa."
           ],
-          "pregunta": ""
+          "pregunta": "Ordena de mayor a menor según la cantidad de veces que estos personajes aparecen en las portadas y contraportadas de los volúmenes de Rent a Girlfriend, hasta el número 47."
         },
         "verdadero_falso": {
-          "pregunta": "",
+          "pregunta": "El nombre real de Miho Takashiro es Miho Takayama, confirmado en el arco de la cita falsa, lo que construye su paralelo con Chizuru Ichinose, que también tiene un apellido falso: Mizuhara.",
           "respuesta_correcta": "verdadero"
         }
       },
@@ -525,27 +525,27 @@
           "respuesta_correcta": ""
         },
         "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
+          "pregunta": "",
           "respuesta_correcta": ""
         },
         "multiple_choice": {
           "opciones": [
-            "Medicina",
-            "Actuación",
-            "Derecho",
-            "Literatura"
+            "Su espejo y mueble de maquillaje.",
+            "Su propia cama, con estampado floral.",
+            "El filtro de aire.",
+            "El placard de cuatro puertas."
           ],
-          "pregunta": "¿Qué estudia Chizuru en la universidad?",
+          "pregunta": "Según el diseño oficial de la habitación de Sumi, expuesto en las páginas extra del volumen 1 de \"Rent a (Really Shy!!) Girlfriend\", la almohada de su perrito está al lado de...",
           "respuesta_correcta": "Actuación"
         },
         "ordenar": {
           "elementos": [
-            "Kazuya Kinoshita",
-            "Chizuru Ichinose",
-            "Mini Yaemori",
-            "Sumi Sakurasawa"
+            "Ruka se marea jugando a la pelota.",
+            "Katsuhito fallece en un accidente de tránsito.",
+            "Kazuya se tiñe el cabello por primera vez.",
+            ""
           ],
-          "pregunta": "Ordena de mayor a menor según la cantidad de veces que estos personajes aparecen en las portadas y contraportadas de los volúmenes de Rent a Girlfriend, hasta el número 47."
+          "pregunta": ""
         },
         "verdadero_falso": {
           "pregunta": "",
@@ -582,7 +582,7 @@
             "Nagomi Kinoshita.",
             "Umi Nakano."
           ],
-          "pregunta": "Ordena los siguientes personajes de mayor a menor según cuánto dinero conocido invirtieron en novias de alquiler:"
+          "pregunta": "Ordena los siguientes personajes de mayor a menor según cuánto dinero invirtieron en novias de alquiler:"
         },
         "verdadero_falso": {
           "pregunta": "En el arco del Paraíso Hawaiiano, Kazuya, Chizuru, Mami, Mini, los amigos de Kazuya y su familia viajan a un Resort Hawaiiano de vacaciones.",
