@@ -49,9 +49,7 @@
         },
         "completar_oracion": {
           "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
+          "respuesta_correcta": ""
         },
         "multiple_choice": {
           "opciones": [
