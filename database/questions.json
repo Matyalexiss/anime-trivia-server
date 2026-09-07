@@ -555,14 +555,63 @@
     },
     "Re:Zero": {
       "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "completar_oracion": {
           "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
           "respuestas_correctas": [
             "Regulus Corneas"
           ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
             "Fuego",
@@ -573,12 +622,37 @@
           "pregunta": "¿Qué magia usa Emilia principalmente?",
           "respuesta_correcta": "Hielo/Espíritus"
         },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
         "verdadero_falso": {
-          "pregunta": "¿Subaru tiene el poder del Retorno por la Muerte?",
-          "respuesta_correcta": "Verdadero"
+          "pregunta": "La Gran Mabestia creada por Daphne, con la apariencia de un conejo capaz de reproducirse infinitamente tiene por nombre Conejotako.",
+          "respuesta_correcta": "Falso"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
             "5 veces",
@@ -588,6 +662,19 @@
           ],
           "pregunta": "¿Cuántas veces muere Subaru en el Arco 1?",
           "respuesta_correcta": "7 veces"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
@@ -606,6 +693,29 @@
           "respuestas_correctas": [
             "Kararagi"
           ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
@@ -950,30 +1060,105 @@
     },
     "Uma Musume": {
       "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "completar_oracion": {
           "pregunta": "¿Cuál es el nombre del entrenador principal?",
           "respuestas_correctas": [
             "No tiene nombre específico"
           ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Asesino",
+            "Oscuro",
+            "Arroz"
+          ],
+          "respuestas_correctas": [
+            "Rice Shower"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre completo la Uma conocida como \"Mambo\" es en realidad _____.",
+          "respuestas_correctas": [
+            "Matikanetannhauser",
+            "Matikanetanhauser"
+          ]
+        },
         "multiple_choice": {
           "opciones": [
-            "Carreras",
-            "Fútbol",
-            "Natación",
-            "Baloncesto"
+            "Satono Diamond.",
+            "Mejiro McQueen.",
+            "Kitasan Black.",
+            "Ikuno Dictus."
           ],
-          "pregunta": "¿Qué deporte practican las Uma Musume?",
+          "pregunta": "La Uma rival de Toukai Teio se llamaba...",
           "respuesta_correcta": "Carreras"
         },
+        "ordenar": {
+          "elementos": [
+            "Special Week.",
+            "Toukai Teio.",
+            "Kitasan Black.",
+            "Oguri Cap."
+          ],
+          "pregunta": "Ordena las protagonistas según el orden de emisión:"
+        },
         "verdadero_falso": {
-          "pregunta": "Las Uma Musume son chicas caballo",
+          "pregunta": "El entrenador original del primer anime de Uma Musume no tiene nombre oficial.",
           "respuesta_correcta": "Verdadero"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
             "Japan Cup",
@@ -983,24 +1168,63 @@
           ],
           "pregunta": "¿Qué carrera es la más prestigiosa?",
           "respuesta_correcta": "Japan Cup"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
         "adivinar_personaje": {
           "pistas": [
-            "Menciona 2 Uma Musume famosas",
-            "Pista 2...",
-            "Pista 3..."
+            "Luchadora",
+            "Ave",
+            "Perú"
           ],
           "respuestas_correctas": [
-            "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
+            "El Condor Pasa"
           ]
         },
         "completar_oracion": {
-          "pregunta": "El nombre de la academia es Tracen ___",
+          "pregunta": "El lema exacto escrito en la oficina de Symboli Rudolf es _____.",
           "respuestas_correctas": [
-            "Academy"
+            "Eclipse first, the rest nowhere.",
+            "Eclipse first the rest nowhere",
+            "Eclipse first, the rest nowhere",
+            "Eclipse first the rest nowhere"
           ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Fine Motion",
+            "Fenómeno",
+            "Grass Wonder",
+            "Nice Nature"
+          ],
+          "pregunta": "Una de las siguientes Umas, en realidad, es intersexual, ¿cuál?",
+          "respuesta_correcta": "Fine Motion"
+        },
+        "ordenar": {
+          "elementos": [
+            "Sprint",
+            "Mile.",
+            "Mediun.",
+            "Long"
+          ],
+          "pregunta": "Ordena las pistas de mayor a menor de mayor a menor longitud:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "Verdadero"
         }
       }
     }
