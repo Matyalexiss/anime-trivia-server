@@ -184,25 +184,96 @@
           "respuestas_correctas": [
             "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
           ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Demon Hunter.",
+            "Cigarro.",
+            "Zorro."
+          ],
+          "respuestas_correctas": [
+            "Aki Hayakawa",
+            "Aki"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Aki es el hermano mayor de la nueva \"Familia Hayakawa\", el trío protagónico de la parte 1. El hermano/a menor es _____.",
+          "respuestas_correctas": [
+            "Power"
+          ]
+        },
         "multiple_choice": {
           "opciones": [
-            "Demonio Motosierra",
-            "Demonio Sangre",
-            "Demonio Futuro",
-            "Demonio Fuego"
+            "Pochita.",
+            "Demonio Motosierra.",
+            "Chainsaw man.",
+            "Héroe del infierno."
           ],
-          "pregunta": "¿Qué demonio es Denji?",
-          "respuesta_correcta": "Demonio Motosierra"
+          "pregunta": "Denji tiene un demonio dentro, el cual tiene múltiples apodos. ¿Cuál de los siguientes no hace referencia directa a él?",
+          "respuesta_correcta": "Chainsaw man."
+        },
+        "ordenar": {
+          "elementos": [
+            "Arco demonio eternidad.",
+            "Arco demonio bomba.",
+            "Arco demonio pistola.",
+            "Arco demonio justicia."
+          ],
+          "pregunta": "Ordena los siguientes arcos cronológicamente:"
         },
         "verdadero_falso": {
-          "pregunta": "Makima es la Demonio del Control",
-          "respuesta_correcta": "Verdadero"
+          "pregunta": "En el inicio de la parte dos de Chainsaw Man, Yoru se presenta con la forma de un reptil. Sin embargo, este no es su cuerpo original, sino uno que poseyó.",
+          "respuesta_correcta": "Falso"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
             "Ojo derecho",
@@ -212,14 +283,63 @@
           ],
           "pregunta": "¿Qué contrato hace Aki con el Demonio Futuro?",
           "respuesta_correcta": "Ojo derecho"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Jinete",
+            "Humor",
+            "Nadar"
+          ],
+          "respuestas_correctas": [
+            "Beam",
+            "Bean",
+            "Demonio tiburón",
+            "Shark Devil"
+          ]
+        },
         "completar_oracion": {
           "pregunta": "¿Qué demonio mata a Himeno?",
           "respuestas_correctas": [
             "Demonio Gun"
           ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Fue asesinada por un demonio.",
+            "Denji la ahorcó y ocultó su cadáver detrás de la puerta.",
+            "Por una enfermedad en el corazón.",
+            "Nunca se la menciona, ni siquiera se sabe si está muerta."
+          ],
+          "pregunta": "La madre de Denji falleció antes del inicio del manga, ¿cuál fue la razón?",
+          "respuesta_correcta": "Por una enfermedad en el corazón."
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "Himeno lleva un parche en el ojo derecho.",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
