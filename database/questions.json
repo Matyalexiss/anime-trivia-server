@@ -1,32 +1,1260 @@
 {
   "animes": {
-    "Shingeki": {
+    "Bleach": {
       "dificil": {
-        "abierta": {
-          "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
-          "respuesta_correcta": "Zeke Yeager"
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
         },
-        "mencionar": {
-          "cantidad": 3,
-          "categoria": "",
-          "pregunta": "asfdds",
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
+          "respuestas_correctas": [
+            "Grand Fisher"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
           "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
-        "abierta": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pan",
+            "Naranja",
+            "Curación"
+          ],
+          "respuestas_correctas": [
+            "Orihime Inoue",
+            "Orihime",
+            "Inoue"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El capitán de la 11° División del Gotei 13 actual se llama Kenpachi _____.",
+          "respuestas_correctas": [
+            "Zaraki"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Dios ruego nos perdone",
+            "Arrancar",
+            "Las Noches",
+            "Filo sangriento"
+          ],
+          "pregunta": "¿Cuál de las siguientes frases en español no se mencionan en Bleach?",
+          "respuesta_correcta": "Filo sangriento"
+        },
+        "ordenar": {
+          "elementos": [
+            "Byakuya Kuchiki",
+            "Yami Llargo",
+            "Chad",
+            "Kon"
+          ],
+          "pregunta": "Ordena a los siguientes personajes, de mayor a menor, según su nivel de poder."
+        },
+        "verdadero_falso": {
+          "pregunta": "Isshin Kurosaki, el padre de Ichigo, es mitad Quincy.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "División 6",
+            "División 5",
+            "División 10",
+            "División 11"
+          ],
+          "pregunta": "¿Qué número de división es la de Byakuya?",
+          "respuesta_correcta": "División 6"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Niña",
+            "Saliva",
+            "Ex. Espada"
+          ],
+          "respuestas_correctas": [
+            "Nelliel Tu Odelschwanck",
+            "Nelliel",
+            "Neliel",
+            "Odelschwanck"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre de la amiga de la infancia de Ichigo es _____.",
+          "respuestas_correctas": [
+            "Tatsuki Arisawa",
+            "Tatsuki",
+            "Arisawa"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Ginrei Kojaku",
+            "Gemietete Freundin",
+            "Seele Schneider",
+            "Sanrei Glove"
+          ],
+          "pregunta": "Uno de los siguientes no es un artefacto Quincy, ¿cuál es?",
+          "respuesta_correcta": "Gemietete Freundin"
+        },
+        "ordenar": {
+          "elementos": [
+            "Giriko Kutsuzawa",
+            "Jackie Tristan",
+            "Shūkurō Tsukishima",
+            "Kūgo Ginjō"
+          ],
+          "pregunta": "Ordena los siguientes Fullbringer según el orden en el que fueron derrotados:"
+        },
+        "verdadero_falso": {
+          "pregunta": "Los Espada están ordenados de mayor a menor en base a su cantidad de poder.",
+          "respuesta_correcta": "Falso"
+        }
+      }
+    },
+    "Chainsaw": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Comprensión",
+            "Demonio",
+            "Cerebro"
+          ],
+          "respuestas_correctas": [
+            "Cosmo"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Las cuatro Fiends de Quanxi se llamaban Cosmo, Pingtsi, Long y _____.",
+          "respuestas_correctas": [
+            "Tsugihagi"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "El primer demonio en ser asesinado por Denji es",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "Demonio Abejorro.",
+            ""
+          ],
+          "pregunta": ""
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Demon Hunter.",
+            "Cigarro.",
+            "Zorro."
+          ],
+          "respuestas_correctas": [
+            "Aki Hayakawa",
+            "Aki"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Aki es el hermano mayor de la nueva \"Familia Hayakawa\", el trío protagónico de la parte 1. El hermano/a menor es _____.",
+          "respuestas_correctas": [
+            "Power"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Pochita.",
+            "Demonio Motosierra.",
+            "Chainsaw man.",
+            "Héroe del infierno."
+          ],
+          "pregunta": "Denji tiene un demonio dentro, el cual tiene múltiples apodos. ¿Cuál de los siguientes no hace referencia directa a él?",
+          "respuesta_correcta": "Chainsaw man."
+        },
+        "ordenar": {
+          "elementos": [
+            "Arco demonio eternidad.",
+            "Arco demonio bomba.",
+            "Arco demonio pistola.",
+            "Arco demonio justicia."
+          ],
+          "pregunta": "Ordena los siguientes arcos cronológicamente:"
+        },
+        "verdadero_falso": {
+          "pregunta": "En el inicio de la parte dos de Chainsaw Man, Yoru se presenta con la forma de un reptil. Sin embargo, este no es su cuerpo original, sino uno que poseyó.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El primer demonio conocido en ser asesinado por Denji fue el Demonio _____.",
+          "respuestas_correctas": [
+            "Malvavisco",
+            "Malvabisco",
+            "Mashumaro"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Kobeni y Angel.",
+            "Himeno y Power.",
+            "Kishibe y Aki.",
+            "Denji base y Denji transformado en Chainsaw man."
+          ],
+          "pregunta": "Una de las siguientes parejas comparte la misma altura exacta, ¿cuál es?",
+          "respuesta_correcta": "Kobeni y Angel."
+        },
+        "ordenar": {
+          "elementos": [
+            "Demonio pepino de mar.",
+            "Demonio pez. ",
+            "Demonio cerdo.",
+            "Demonio uva."
+          ],
+          "pregunta": "Ordena los siguientes demonios según su orden de aparición:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Jinete",
+            "Humor",
+            "Nadar"
+          ],
+          "respuestas_correctas": [
+            "Beam",
+            "Bean",
+            "Demonio tiburón",
+            "Shark Devil"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "¿Qué demonio mata a Himeno?",
+          "respuestas_correctas": [
+            "Demonio Gun"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Fue asesinada por un demonio.",
+            "Denji la ahorcó y ocultó su cadáver detrás de la puerta.",
+            "Por una enfermedad en el corazón.",
+            "Nunca se la menciona, ni siquiera se sabe si está muerta."
+          ],
+          "pregunta": "La madre de Denji falleció antes del inicio del manga, ¿cuál fue la razón?",
+          "respuesta_correcta": "Por una enfermedad en el corazón."
+        },
+        "ordenar": {
+          "elementos": [
+            "Denji.",
+            "Power.",
+            "Himeno.",
+            "Aki."
+          ],
+          "pregunta": "Ordena los siguientes personajes según el orden en el que aparecen en las portadas del manga:"
+        },
+        "verdadero_falso": {
+          "pregunta": "Himeno lleva un parche en el ojo derecho.",
+          "respuesta_correcta": "verdadero"
+        }
+      }
+    },
+    "Dragon Ball": {
+      "dificil": {
+        "completar_oracion": {
+          "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
+          "respuestas_correctas": [
+            "Kaio-sama del Norte"
+          ]
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Gohan",
+            "Goten",
+            "Trunks",
+            "Vegeta Jr"
+          ],
+          "pregunta": "¿Cómo se llama el hijo de Goku?",
+          "respuesta_correcta": "Gohan"
+        },
+        "verdadero_falso": {
+          "pregunta": "Goku es un Saiyajin",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pregunta": "¿Cuántas esferas del dragón existen en la Tierra?",
+          "respuesta_correcta": "7"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 transformaciones de Goku",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El planeta natal de Goku es ___",
+          "respuestas_correctas": [
+            "Vegeta"
+          ]
+        }
+      }
+    },
+    "Gintama": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Ramen.",
+            "Padre.",
+            "Vagabond."
+          ],
+          "respuestas_correctas": [
+            "Nishiki Matsugorou",
+            "Nishiki",
+            "Musashi"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "En la segunda encuesta de popularidad de Gintama, que sirvió de base para el Character Poll Arc, Shimura Shinpachi terminó en la posición número _____.",
+          "respuestas_correctas": [
+            "8"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Elizabeth y Kotarou Katsura.",
+            "Gintoki Sakata y Toushirou Hijikata.",
+            "Otae Shimura y Kyuubei Yagyuu.",
+            "Nobume Imai y Sougo Okita."
+          ],
+          "pregunta": "Una de las siguientes parejas tiene exactamente la misma altura, ¿cuál es?",
+          "respuesta_correcta": "Gintoki Sakata y Toushirou Hijikata."
+        },
+        "ordenar": {
+          "elementos": [
+            "Kagura (Time-skip arc).",
+            "Tsukuyo.",
+            "Ayame Sarutobi.",
+            "Nobume Imai."
+          ],
+          "pregunta": "Ordena a los personajes de mayor a menor tamaño de pechos."
+        },
+        "verdadero_falso": {
+          "pregunta": "El personaje que aparece en la portada del volumen 54 del manga es Tatsuma Sakamoto.",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Mono.",
+            "Parche.",
+            "Género."
+          ],
+          "respuestas_correctas": [
+            "Yagyuu Kyuubei",
+            "Yagyuu",
+            "Kyuubei",
+            "Kyubei",
+            "Yagyu",
+            "Kyuubei Yagyuu",
+            "Kyubei Yagyu",
+            "Yagyu Kyubei"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Pese a que el Rebelde Joui se llama Katsura, los personajes lo llaman erróneamente _____.",
+          "respuestas_correctas": [
+            "Zura",
+            "Sura"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Gintoki Sakata.",
+            "Katsura Kotarou.",
+            "Tatsuma Sakamoto.",
+            "Takasugi Shinsuke."
+          ],
+          "pregunta": "¿Cuál de estos cuatro personajes no estudió en la Shoka Sonjuku?",
+          "respuesta_correcta": "Tatsuma Sakamoto."
+        },
+        "ordenar": {
+          "elementos": [
+            "Kondou Isao.",
+            "Toushirou Hijikata.",
+            "Okita Sougo.",
+            "Saitou Shimaru."
+          ],
+          "pregunta": "Ordena de mayor a menor los siguientes personajes según su jerarquía del Shinsengumi:"
+        },
+        "verdadero_falso": {
+          "pregunta": "La raza Yato incrementa su poder al ser afectada por los rayos del sol.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Tama",
+            "Virus",
+            "Rey"
+          ],
+          "respuestas_correctas": [
+            "Tapir King",
+            "Rey Tapir"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Según el cálculo de un fan, el cual fue expuesto en el volumen 52 del manga, la media de chistes sucios por volumen que hay en los primeros 50 tomos es de _____.",
+          "respuestas_correctas": [
+            "38,4",
+            "38.4",
+            "38"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "1",
+            "11",
+            "17",
+            "Ninguno, es original del anime."
+          ],
+          "pregunta": "¿Cuál capítulo de manga es adaptado en el primer contenido animado de la franquicia?",
+          "respuesta_correcta": "17"
+        },
+        "ordenar": {
+          "elementos": [
+            "Kanbei.",
+            "Shinohara Shinnoshin.",
+            "Amarao Daisaku.",
+            "Tendou Soutatsu."
+          ],
+          "pregunta": "Ordena los siguientes personajes por orden de aparición:"
+        },
+        "verdadero_falso": {
+          "pregunta": "El nombre del mono de Kyuubei acaba con \"Chigau Yatsu Dakara﻿ Ikeno Medaka no Hou Dakara Raayu Yuuteimiyaoukimukou Pepepepepepepepepepepepe Bichiguso Maru\".",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Heterocromía.",
+            "Ciborg.",
+            "Star Wars."
+          ],
+          "respuestas_correctas": [
+            "Obi Hajime",
+            "Obi Wan",
+            "Obi'Wan",
+            "Obi' Wan",
+            "Obi One"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "La facción terrorista liderada por Takasugi Shinsuke se conoce como _____.",
+          "respuestas_correctas": [
+            "Kiheitai"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Farewell Shinsengumi.",
+            "Shogun Assassination.",
+            "Yoshiwara in Flames.",
+            "Otsu Arc."
+          ],
+          "pregunta": "¿Cuál de los siguientes arcos es el más largo en el anime?",
+          "respuesta_correcta": "Farewell Shinsengumi."
+        },
+        "ordenar": {
+          "elementos": [
+            "\"Pray\".",
+            "\"Togenkyo Alien\".",
+            "\"Sakura Mitsutsuki\".",
+            "\"I Wanna Be\"."
+          ],
+          "pregunta": "Ordena los siguientes openings por orden de emisión:"
+        },
+        "verdadero_falso": {
+          "pregunta": "La traducción literal de Gintama es \"Testículos\".",
+          "respuesta_correcta": "Falso"
+        }
+      }
+    },
+    "Jujutsu": {
+      "dificil": {
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el nombre completo de Gojo?",
+          "respuestas_correctas": [
+            "Satoru Gojo"
+          ]
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Técnica de Sombras",
+            "Técnica de Maldición",
+            "Técnica de Expansión",
+            "Técnica de Dominio"
+          ],
+          "pregunta": "¿Qué técnica usa Megumi?",
+          "respuesta_correcta": "Técnica de Sombras"
+        },
+        "verdadero_falso": {
+          "pregunta": "Yuji Itadori es el recipiente de Sukuna",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Índice derecho",
+            "Índice izquierdo",
+            "Corazón",
+            "Pulgar"
+          ],
+          "pregunta": "¿Qué dedo de Sukuna consume Yuji primero?",
+          "respuesta_correcta": "Índice derecho"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 de los Pilares de la Sociedad Jujutsu",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre del director de Jujutsu High es ___",
+          "respuestas_correctas": [
+            "Masamichi Yaga"
+          ]
+        }
+      }
+    },
+    "Mushoku": {
+      "dificil": {
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el nombre completo de Rudeus en su vida pasada?",
+          "respuestas_correctas": [
+            "No se revela"
+          ]
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Roxy",
+            "Sylphiette",
+            "Eris",
+            "Lilia"
+          ],
+          "pregunta": "¿Quién es la primera maestra de magia de Rudeus?",
+          "respuesta_correcta": "Roxy"
+        },
+        "verdadero_falso": {
+          "pregunta": "Rudeus Greyrat es reencarnado en otro mundo",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Nivel Santo",
+            "Nivel Rey",
+            "Nivel Emperador",
+            "Nivel Dios"
+          ],
+          "pregunta": "¿Qué nivel de magia alcanza Rudeus?",
+          "respuesta_correcta": "Nivel Santo"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 esposas de Rudeus",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Sylphiette, Eris, Roxy"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre del padre de Rudeus es ___",
+          "respuestas_correctas": [
+            "Paul"
+          ]
+        }
+      }
+    },
+    "Naruto": {
+      "dificil": {
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el nombre del padre de Naruto?",
+          "respuestas_correctas": [
+            "Minato Namikaze"
+          ]
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Kyubi",
+            "Shukaku",
+            "Matatabi",
+            "Isobu"
+          ],
+          "pregunta": "¿Qué bestia está sellada dentro de Naruto?",
+          "respuesta_correcta": "Kyubi"
+        },
+        "verdadero_falso": {
+          "pregunta": "Naruto quiere ser Hokage",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "Kage Bunshin",
+            "Rasengan",
+            "Chidori",
+            "Sharingan"
+          ],
+          "pregunta": "¿Qué técnica prohibida aprendió Naruto al inicio?",
+          "respuesta_correcta": "Kage Bunshin"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 miembros del Equipo 7",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Naruto, Sasuke, Sakura, Kakashi"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre del sensei de Naruto es ___",
+          "respuestas_correctas": [
+            "Kakashi"
+          ]
+        }
+      }
+    },
+    "One Piece": {
+      "dificil": {
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el sueño de Zoro?",
+          "respuestas_correctas": [
+            "Ser el mejor espadachín del mundo"
+          ]
+        }
+      },
+      "facil": {
+        "multiple_choice": {
+          "opciones": [
+            "Gomu Gomu no Mi",
+            "Mera Mera no Mi",
+            "Hie Hie no Mi",
+            "Yami Yami no Mi"
+          ],
+          "pregunta": "¿Qué fruta comió Luffy?",
+          "respuesta_correcta": "Gomu Gomu no Mi"
+        },
+        "verdadero_falso": {
+          "pregunta": "Luffy quiere ser el Rey de los Piratas",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "multiple_choice": {
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "pregunta": "¿Cuántos Yonko existen?",
+          "respuesta_correcta": "4"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 miembros de los Sombrero de Paja",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre del primer barco de los Sombrero de Paja es ___",
+          "respuestas_correctas": [
+            "Going Merry"
+          ]
+        }
+      }
+    },
+    "Oshi no ko": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 miembros originales de B-Komachi",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
+          ]
+        }
+      },
+      "facil": {
+        "completar_oracion": {
+          "pregunta": "El nombre del grupo de idols de Ai es ___",
+          "respuestas_correctas": [
+            "B-Komachi"
+          ]
+        },
+        "verdadero_falso": {
+          "pregunta": "Ai Hoshino es la madre de Aqua y Ruby",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "verdadero_falso": {
+          "pregunta": "Ruby reencarnó con recuerdos de su vida pasada como Sarina",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "intermedia": {
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el nombre del padre biológico de Aqua y Ruby?",
+          "respuestas_correctas": [
+            "Desconocido"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Actor",
+            "Médico rural",
+            "Idol",
+            "Productor"
+          ],
+          "pregunta": "¿Qué profesión tiene Gorou antes de reencarnar?",
+          "respuesta_correcta": "Médico rural"
+        }
+      }
+    },
+    "Re:Zero": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
+          "respuestas_correctas": [
+            "Regulus Corneas"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Fuego",
+            "Agua",
+            "Hielo/Espíritus",
+            "Tierra"
+          ],
+          "pregunta": "¿Qué magia usa Emilia principalmente?",
+          "respuesta_correcta": "Hielo/Espíritus"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "La Gran Mabestia creada por Daphne, con la apariencia de un conejo capaz de reproducirse infinitamente tiene por nombre Conejotako.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "5 veces",
+            "7 veces",
+            "9 veces",
+            "11 veces"
+          ],
+          "pregunta": "¿Cuántas veces muere Subaru en el Arco 1?",
+          "respuesta_correcta": "7 veces"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 3 de las brujas del pecado",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre de la tienda donde trabaja Subaru es ___",
+          "respuestas_correctas": [
+            "Kararagi"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      }
+    },
+    "Rent a GF": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Evolución",
+            "Mago",
+            "Foto de perfil"
+          ],
+          "respuestas_correctas": [
+            "Lungfish",
+            "Pez pulmonado",
+            "Haigyo"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre del hipotético hijo entre Kazuya y Mami sería _____.",
+          "respuestas_correctas": [
+            "Maya"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Dos: uno en el pie y otro en el muslo.",
+            "Uno en el pie.",
+            "Uno en la entrepierna.",
+            "Ninguno, confirmado por Mini Yaemori en el episodio 318 del manga, lo que simboliza su perfección como novia ideal."
+          ],
+          "pregunta": "¿Cuántos lunares tiene Chizuru Ichinose en total y en dónde se ubican?",
+          "respuesta_correcta": "Uno en la entrepierna."
+        },
+        "ordenar": {
+          "elementos": [
+            "Kazuya Kinoshita.",
+            "Chizuru Ichinose.",
+            "Mini Yaemori.",
+            "Sumi Sakurasawa."
+          ],
+          "pregunta": "Ordena de mayor a menor según la cantidad de veces que estos personajes aparecen en las portadas y contraportadas de los volúmenes de Rent a Girlfriend, hasta el número 47."
+        },
+        "verdadero_falso": {
+          "pregunta": "El nombre real de Miho Takashiro es Miho Takayama, confirmado en el arco de la cita falsa, lo que construye su paralelo con Chizuru Ichinose, que también tiene un apellido falso: Mizuhara.",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Plana.",
+            "Estados Unidos.",
+            "Ex."
+          ],
+          "respuestas_correctas": [
+            "Mami Nanami",
+            "Mami"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El arco de película fue adaptado en la temporada número _____ del anime.",
+          "respuestas_correctas": [
+            "3"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Chizuru Ichinose",
+            "Chizuru Mizuhara",
+            "Chizuru Nanami",
+            "Chizuru Sakurasawa"
+          ],
+          "pregunta": "¿Cuál es el nombre original de Chizuru, la protagonista principal?",
+          "respuesta_correcta": "Chizuru Ichinose"
+        },
+        "ordenar": {
+          "elementos": [
+            "Kazuya Kinoshita.",
+            "Mami Nanami.",
+            "Chizuru Ichinose.",
+            "Ruka Sarashina."
+          ],
+          "pregunta": "Ordena los siguientes personajes en orden de aparición:"
+        },
+        "verdadero_falso": {
+          "pregunta": "El color de cabello original del protagonista, Kazuya Kinoshita, es rubio.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Gafas",
+            "Ultramarina",
+            "Club de cine"
+          ],
+          "respuestas_correctas": [
+            "Tabuse"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "La empresa donde Ruka Sarashina se alquilaba es conocida como _____.",
+          "respuestas_correctas": [
+            "Rental Kanojo Maple",
+            "Maple",
+            "Meipuru"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Su espejo y mueble de maquillaje.",
+            "Su propia cama, con estampado floral.",
+            "El filtro de aire.",
+            "El placard de cuatro puertas."
+          ],
+          "pregunta": "Según el diseño oficial de la habitación de Sumi, expuesto en las páginas extra del volumen 1 del spin-off \"Rent a (Really Shy!!) Girlfriend\", la almohada de su perrito está al lado de...",
+          "respuesta_correcta": "El filtro de aire."
+        },
+        "ordenar": {
+          "elementos": [
+            "Sumi conoce a Chizuru.",
+            "Sumi conoce a Ruka.",
+            "Sumi conoce a Mami.",
+            "Sumi conoce a Kazuya."
+          ],
+          "pregunta": "Ordena los siguientes elementos de la historia de Sumi cronológicamente:"
+        },
+        "verdadero_falso": {
+          "pregunta": "En los volúmenes físicos de Rent a Girlfriend todas las escenas de desnudez se encuentran sin censura, pero incluso en la versión digital se puede ver explícitamente a Chizuru sin ropa en el episodio 39.5.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Meta.",
+            "Actriz.",
+            "Película."
+          ],
+          "respuestas_correctas": [
+            "Sayuri Ichinose",
+            "Sayuri",
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Chizuru Mizuhara pertenece a una agencia de novias de alquiler llamada _____.",
+          "respuestas_correctas": [
+            "Diamond"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Shun Kuribayashi.",
+            "Yoshiaki Kibe.",
+            "Kazuo Nanami.",
+            "Nagomi Kinoshita."
+          ],
+          "pregunta": "Uno de los siguientes personajes no pertenece al cast de Rent a Girlfriend, ¿cuál es?",
+          "respuesta_correcta": "Kazuo Nanami."
+        },
+        "ordenar": {
+          "elementos": [
+            "Kazuya Kinoshita.",
+            "Fumiki, el niño que alquila a Sumi en su Spin-off.",
+            "Nagomi Kinoshita.",
+            "Umi Nakano."
+          ],
+          "pregunta": "Ordena los siguientes personajes de mayor a menor según cuánto dinero invirtieron en novias de alquiler:"
+        },
+        "verdadero_falso": {
+          "pregunta": "En el arco del Paraíso Hawaiiano, Kazuya, Chizuru, Mami, Mini, los amigos de Kazuya y su familia viajan a un Resort Hawaiiano de vacaciones.",
+          "respuesta_correcta": "Falso"
+        }
+      }
+    },
+    "Shingeki": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "asfdds",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
+          "respuestas_correctas": [
+            "Zeke Yeager"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Chizuru es virgen?",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "si."
+          ]
+        },
+        "completar_oracion": {
           "pregunta": "Kazuya tiene una licencia de conducir?",
-          "respuesta_correcta": "si"
-        },
-        "completar_espacios": {
-          "pregunta": "Xddddd",
-          "respuesta_correcta": "123"
-        },
-        "mencionar": {
-          "cantidad": 3,
-          "categoria": "si",
-          "pregunta": "Chizuru es virgen?",
-          "respuesta_correcta": "si."
+          "respuestas_correctas": [
+            "si"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -38,12 +1266,37 @@
           "pregunta": "¿Qué tipo de titán es Eren inicialmente?",
           "respuesta_correcta": "Titán de Ataque"
         },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
         "verdadero_falso": {
           "pregunta": "¿Eren Yeager es el protagonista de Shingeki no Kyojin?",
           "respuesta_correcta": "Verdadero"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
             "5 años",
@@ -53,18 +1306,37 @@
           ],
           "pregunta": "¿Cuántos años han pasado desde la caída del Muro María?",
           "respuesta_correcta": "5 años"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del escuadrón de élite es ___",
-          "respuesta_correcta": "Levi"
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 de los 9 titanes",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+          ]
         },
-        "mencionar": {
-          "cantidad": 2,
-          "categoria": "titanes",
-          "pregunta": "Menciona 2 de los 9 titanes",
-          "respuesta_correcta": "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+        "completar_oracion": {
+          "pregunta": "El nombre del escuadrón de élite es ___",
+          "respuestas_correctas": [
+            "Levi"
+          ]
         },
         "multiple_choice": {
           "opciones": [
@@ -76,531 +1348,188 @@
           "pregunta": "Eren es miagejero?",
           "respuesta_correcta": "Si"
         },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
         "verdadero_falso": {
           "pregunta": "Kazuya vivio en Royal hill nerima?",
           "respuesta_correcta": "Verdadero"
         }
       }
     },
-    "Oshi no ko": {
-      "facil": {
-        "completar_espacios": {
-          "pregunta": "El nombre del grupo de idols de Ai es ___",
-          "respuesta_correcta": "B-Komachi"
-        },
-        "verdadero_falso": {
-          "pregunta": "Ai Hoshino es la madre de Aqua y Ruby",
-          "respuesta_correcta": "Verdadero"
-        }
-      },
-      "intermedia": {
-        "multiple_choice": {
-          "pregunta": "¿Qué profesión tiene Gorou antes de reencarnar?",
-          "opciones": [
-            "Actor",
-            "Médico rural",
-            "Idol",
-            "Productor"
-          ],
-          "respuesta_correcta": "Médico rural"
-        },
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del padre biológico de Aqua y Ruby?",
-          "respuesta_correcta": "Desconocido"
-        }
-      },
-      "dificil": {
-        "mencionar": {
-          "pregunta": "Menciona 2 miembros originales de B-Komachi",
-          "cantidad": 2,
-          "categoria": "miembros",
-          "respuesta_correcta": "Ai Hoshino, Yuki Sumi, Akane Kurokawa"
-        }
-      },
-      "imposible": {
-        "verdadero_falso": {
-          "pregunta": "Ruby reencarnó con recuerdos de su vida pasada como Sarina",
-          "respuesta_correcta": "Falso"
-        }
-      }
-    },
-    "Re:Zero": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "¿Subaru tiene el poder del Retorno por la Muerte?",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué magia usa Emilia principalmente?",
-          "opciones": [
-            "Fuego",
-            "Agua",
-            "Hielo/Espíritus",
-            "Tierra"
-          ],
-          "respuesta_correcta": "Hielo/Espíritus"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre de la tienda donde trabaja Subaru es ___",
-          "respuesta_correcta": "Kararagi"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 3 de las brujas del pecado",
-          "cantidad": 3,
-          "categoria": "brujas",
-          "respuesta_correcta": "Echidna, Sekhmet, Typhon, Minerva, Daphne, Satella, Carmilla"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el verdadero nombre del Arzobispo de la Pereza?",
-          "respuesta_correcta": "Regulus Corneas"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántas veces muere Subaru en el Arco 1?",
-          "opciones": [
-            "5 veces",
-            "7 veces",
-            "9 veces",
-            "11 veces"
-          ],
-          "respuesta_correcta": "7 veces"
-        }
-      }
-    },
-    "Mushoku": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Rudeus Greyrat es reencarnado en otro mundo",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Quién es la primera maestra de magia de Rudeus?",
-          "opciones": [
-            "Roxy",
-            "Sylphiette",
-            "Eris",
-            "Lilia"
-          ],
-          "respuesta_correcta": "Roxy"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del padre de Rudeus es ___",
-          "respuesta_correcta": "Paul"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 esposas de Rudeus",
-          "cantidad": 2,
-          "categoria": "esposas",
-          "respuesta_correcta": "Sylphiette, Eris, Roxy"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre completo de Rudeus en su vida pasada?",
-          "respuesta_correcta": "No se revela"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué nivel de magia alcanza Rudeus?",
-          "opciones": [
-            "Nivel Santo",
-            "Nivel Rey",
-            "Nivel Emperador",
-            "Nivel Dios"
-          ],
-          "respuesta_correcta": "Nivel Santo"
-        }
-      }
-    },
-    "Rent a GF": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Kazuya alquila una novia a través de una app",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Cómo se llama la novia de alquiler principal?",
-          "opciones": [
-            "Chizuru",
-            "Mami",
-            "Ruka",
-            "Sumi"
-          ],
-          "respuesta_correcta": "Chizuru"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre real de Chizuru es ___",
-          "respuesta_correcta": "Chizuru Ichinose"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 novias de alquiler del anime",
-          "cantidad": 2,
-          "categoria": "novias",
-          "respuesta_correcta": "Chizuru, Mami, Ruka, Sumi"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Por qué Kazuya rompió con Mami?",
-          "respuesta_correcta": "Mami lo dejó"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué estudia Chizuru en la universidad?",
-          "opciones": [
-            "Medicina",
-            "Actuación",
-            "Derecho",
-            "Literatura"
-          ],
-          "respuesta_correcta": "Actuación"
-        }
-      }
-    },
-    "Dragon Ball": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Goku es un Saiyajin",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Cómo se llama el hijo de Goku?",
-          "opciones": [
-            "Gohan",
-            "Goten",
-            "Trunks",
-            "Vegeta Jr"
-          ],
-          "respuesta_correcta": "Gohan"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El planeta natal de Goku es ___",
-          "respuesta_correcta": "Vegeta"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 transformaciones de Goku",
-          "cantidad": 2,
-          "categoria": "transformaciones",
-          "respuesta_correcta": "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
-          "respuesta_correcta": "Kaio-sama del Norte"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántas esferas del dragón existen en la Tierra?",
-          "opciones": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "respuesta_correcta": "7"
-        }
-      }
-    },
-    "Naruto": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Naruto quiere ser Hokage",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué bestia está sellada dentro de Naruto?",
-          "opciones": [
-            "Kyubi",
-            "Shukaku",
-            "Matatabi",
-            "Isobu"
-          ],
-          "respuesta_correcta": "Kyubi"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del sensei de Naruto es ___",
-          "respuesta_correcta": "Kakashi"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 miembros del Equipo 7",
-          "cantidad": 2,
-          "categoria": "miembros",
-          "respuesta_correcta": "Naruto, Sasuke, Sakura, Kakashi"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del padre de Naruto?",
-          "respuesta_correcta": "Minato Namikaze"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué técnica prohibida aprendió Naruto al inicio?",
-          "opciones": [
-            "Kage Bunshin",
-            "Rasengan",
-            "Chidori",
-            "Sharingan"
-          ],
-          "respuesta_correcta": "Kage Bunshin"
-        }
-      }
-    },
-    "Bleach": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Ichigo Kurosaki es un Shinigami sustituto",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Cómo se llama la espada de Ichigo?",
-          "opciones": [
-            "Zangetsu",
-            "Senbonzakura",
-            "Hyorinmaru",
-            "Zabimaru"
-          ],
-          "respuesta_correcta": "Zangetsu"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre de la amiga de Ichigo es ___",
-          "respuesta_correcta": "Rukia"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 capitanes del Gotei 13",
-          "cantidad": 2,
-          "categoria": "capitanes",
-          "respuesta_correcta": "Byakuya, Kenpachi, Toshiro, Yamamoto, Ukitake, Kyoraku"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del Hollow que mató a la madre de Ichigo?",
-          "respuesta_correcta": "Grand Fisher"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué número de división es la de Byakuya?",
-          "opciones": [
-            "División 6",
-            "División 5",
-            "División 10",
-            "División 11"
-          ],
-          "respuesta_correcta": "División 6"
-        }
-      }
-    },
-    "Chainsaw": {
-      "facil": {
-        "multiple_choice": {
-          "pregunta": "¿Qué demonio es Denji?",
-          "opciones": [
-            "Demonio Motosierra",
-            "Demonio Sangre",
-            "Demonio Futuro",
-            "Demonio Fuego"
-          ],
-          "respuesta_correcta": "Demonio Motosierra"
-        },
-        "verdadero_falso": {
-          "pregunta": "Makima es la Demonio del Control",
-          "respuesta_correcta": "Verdadero"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del perro de Denji es ___",
-          "respuesta_correcta": "Pochita"
-        },
-        "abierta": {
-          "pregunta": "¿Qué demonio mata a Himeno?",
-          "respuesta_correcta": "Demonio Gun"
-        }
-      },
-      "dificil": {
-        "mencionar": {
-          "pregunta": "Menciona 2 Demonios Primordiales",
-          "cantidad": 2,
-          "categoria": "demonios",
-          "respuesta_correcta": "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué contrato hace Aki con el Demonio Futuro?",
-          "opciones": [
-            "Ojo derecho",
-            "Ojo izquierdo",
-            "Brazo derecho",
-            "Pierna izquierda"
-          ],
-          "respuesta_correcta": "Ojo derecho"
-        }
-      }
-    },
-    "Jujutsu": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Yuji Itadori es el recipiente de Sukuna",
-          "respuesta_correcta": "Verdadero"
-        },
-        "multiple_choice": {
-          "pregunta": "¿Qué técnica usa Megumi?",
-          "opciones": [
-            "Técnica de Sombras",
-            "Técnica de Maldición",
-            "Técnica de Expansión",
-            "Técnica de Dominio"
-          ],
-          "respuesta_correcta": "Técnica de Sombras"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del director de Jujutsu High es ___",
-          "respuesta_correcta": "Masamichi Yaga"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 de los Pilares de la Sociedad Jujutsu",
-          "cantidad": 2,
-          "categoria": "pilares",
-          "respuesta_correcta": "Gojo Satoru, Yuta Okkotsu, Maki Zenin, Yuki Tsukumo"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre completo de Gojo?",
-          "respuesta_correcta": "Satoru Gojo"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Qué dedo de Sukuna consume Yuji primero?",
-          "opciones": [
-            "Índice derecho",
-            "Índice izquierdo",
-            "Corazón",
-            "Pulgar"
-          ],
-          "respuesta_correcta": "Índice derecho"
-        }
-      }
-    },
     "Uma Musume": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Las Uma Musume son chicas caballo",
-          "respuesta_correcta": "Verdadero"
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "¿Cuál es el nombre del entrenador principal?",
+          "respuestas_correctas": [
+            "No tiene nombre específico"
+          ]
         },
         "multiple_choice": {
-          "pregunta": "¿Qué deporte practican las Uma Musume?",
           "opciones": [
-            "Carreras",
-            "Fútbol",
-            "Natación",
-            "Baloncesto"
+            "",
+            "",
+            "",
+            ""
           ],
-          "respuesta_correcta": "Carreras"
-        }
-      },
-      "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre de la academia es Tracen ___",
-          "respuesta_correcta": "Academy"
+          "pregunta": "",
+          "respuesta_correcta": ""
         },
-        "mencionar": {
-          "pregunta": "Menciona 2 Uma Musume famosas",
-          "cantidad": 2,
-          "categoria": "personajes",
-          "respuesta_correcta": "Special Week, Silence Suzuka, Tokai Teio, Oguri Cap"
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el nombre del entrenador principal?",
-          "respuesta_correcta": "No tiene nombre específico"
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Asesino",
+            "Oscuro",
+            "Arroz"
+          ],
+          "respuestas_correctas": [
+            "Rice Shower"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre completo la Uma conocida como \"Mambo\" es en realidad _____.",
+          "respuestas_correctas": [
+            "Matikanetannhauser",
+            "Matikanetanhauser"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Satono Diamond.",
+            "Mejiro McQueen.",
+            "Kitasan Black.",
+            "Ikuno Dictus."
+          ],
+          "pregunta": "La Uma rival de Toukai Teio se llamaba...",
+          "respuesta_correcta": "Carreras"
+        },
+        "ordenar": {
+          "elementos": [
+            "Special Week.",
+            "Toukai Teio.",
+            "Kitasan Black.",
+            "Oguri Cap."
+          ],
+          "pregunta": "Ordena las protagonistas según el orden de emisión:"
+        },
+        "verdadero_falso": {
+          "pregunta": "El entrenador original del primer anime de Uma Musume no tiene nombre oficial.",
+          "respuesta_correcta": "Verdadero"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
-          "pregunta": "¿Qué carrera es la más prestigiosa?",
           "opciones": [
             "Japan Cup",
             "Derby",
             "Satsuki Sho",
             "Kikuka Sho"
           ],
+          "pregunta": "¿Qué carrera es la más prestigiosa?",
           "respuesta_correcta": "Japan Cup"
-        }
-      }
-    },
-    "One Piece": {
-      "facil": {
-        "verdadero_falso": {
-          "pregunta": "Luffy quiere ser el Rey de los Piratas",
-          "respuesta_correcta": "Verdadero"
         },
-        "multiple_choice": {
-          "pregunta": "¿Qué fruta comió Luffy?",
-          "opciones": [
-            "Gomu Gomu no Mi",
-            "Mera Mera no Mi",
-            "Hie Hie no Mi",
-            "Yami Yami no Mi"
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
           ],
-          "respuesta_correcta": "Gomu Gomu no Mi"
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
-        "completar_espacios": {
-          "pregunta": "El nombre del primer barco de los Sombrero de Paja es ___",
-          "respuesta_correcta": "Going Merry"
-        },
-        "mencionar": {
-          "pregunta": "Menciona 2 miembros de los Sombrero de Paja",
-          "cantidad": 2,
-          "categoria": "tripulantes",
-          "respuesta_correcta": "Zoro, Nami, Usopp, Sanji, Chopper, Robin, Franky, Brook, Jinbe"
-        }
-      },
-      "dificil": {
-        "abierta": {
-          "pregunta": "¿Cuál es el sueño de Zoro?",
-          "respuesta_correcta": "Ser el mejor espadachín del mundo"
-        }
-      },
-      "imposible": {
-        "multiple_choice": {
-          "pregunta": "¿Cuántos Yonko existen?",
-          "opciones": [
-            "3",
-            "4",
-            "5",
-            "6"
+        "adivinar_personaje": {
+          "pistas": [
+            "Luchadora",
+            "Ave",
+            "Perú"
           ],
-          "respuesta_correcta": "4"
+          "respuestas_correctas": [
+            "El Condor Pasa"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El lema exacto escrito en la oficina de Symboli Rudolf es _____.",
+          "respuestas_correctas": [
+            "Eclipse first, the rest nowhere.",
+            "Eclipse first the rest nowhere",
+            "Eclipse first, the rest nowhere",
+            "Eclipse first the rest nowhere"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Fine Motion",
+            "Fenómeno",
+            "Grass Wonder",
+            "Nice Nature"
+          ],
+          "pregunta": "Una de las siguientes Umas, en realidad, es intersexual, ¿cuál?",
+          "respuesta_correcta": "Fine Motion"
+        },
+        "ordenar": {
+          "elementos": [
+            "Sprint",
+            "Mile.",
+            "Mediun.",
+            "Long"
+          ],
+          "pregunta": "Ordena las pistas de mayor a menor de mayor a menor longitud:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "Verdadero"
         }
       }
     }
