@@ -177,18 +177,18 @@
       "dificil": {
         "adivinar_personaje": {
           "pistas": [
-            "Menciona 2 Demonios Primordiales",
-            "Pista 2...",
-            "Pista 3..."
+            "Comprensión",
+            "Demonio",
+            "Cerebro"
           ],
           "respuestas_correctas": [
-            "Demonio Oscuridad, Demonio Caos, Demonio Muerte"
+            "Cosmo"
           ]
         },
         "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
+          "pregunta": "Las cuatro Fiends de Quanxi se llamaban Cosmo, Pingtsi, Long y _____.",
           "respuestas_correctas": [
-            ""
+            "Tsugihagi"
           ]
         },
         "multiple_choice": {
@@ -198,21 +198,21 @@
             "",
             ""
           ],
-          "pregunta": "",
+          "pregunta": "El primer demonio en ser asesinado por Denji es",
           "respuesta_correcta": ""
         },
         "ordenar": {
           "elementos": [
             "",
             "",
-            "",
+            "Demonio Abejorro.",
             ""
           ],
-          "pregunta": "Ordena los siguientes elementos:"
+          "pregunta": ""
         },
         "verdadero_falso": {
           "pregunta": "",
-          "respuesta_correcta": "verdadero"
+          "respuesta_correcta": "Falso"
         }
       },
       "facil": {
@@ -269,29 +269,31 @@
           ]
         },
         "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
+          "pregunta": "El primer demonio conocido en ser asesinado por Denji fue el Demonio _____.",
           "respuestas_correctas": [
-            ""
+            "Malvavisco",
+            "Malvabisco",
+            "Mashumaro"
           ]
         },
         "multiple_choice": {
           "opciones": [
-            "Ojo derecho",
-            "Ojo izquierdo",
-            "Brazo derecho",
-            "Pierna izquierda"
+            "Kobeni y Angel.",
+            "Himeno y Power.",
+            "Kishibe y Aki.",
+            "Denji base y Denji transformado en Chainsaw man."
           ],
-          "pregunta": "¿Qué contrato hace Aki con el Demonio Futuro?",
-          "respuesta_correcta": "Ojo derecho"
+          "pregunta": "Una de las siguientes parejas comparte la misma altura exacta, ¿cuál es?",
+          "respuesta_correcta": "Kobeni y Angel."
         },
         "ordenar": {
           "elementos": [
-            "",
-            "",
-            "",
-            ""
+            "Demonio pepino de mar.",
+            "Demonio pez. ",
+            "Demonio cerdo.",
+            "Demonio uva."
           ],
-          "pregunta": "Ordena los siguientes elementos:"
+          "pregunta": "Ordena los siguientes demonios según su orden de aparición:"
         },
         "verdadero_falso": {
           "pregunta": "",
@@ -330,12 +332,12 @@
         },
         "ordenar": {
           "elementos": [
-            "",
-            "",
-            "",
-            ""
+            "Denji.",
+            "Power.",
+            "Himeno.",
+            "Aki."
           ],
-          "pregunta": "Ordena los siguientes elementos:"
+          "pregunta": "Ordena los siguientes personajes según el orden en el que aparecen en las portadas del manga:"
         },
         "verdadero_falso": {
           "pregunta": "Himeno lleva un parche en el ojo derecho.",
@@ -396,6 +398,189 @@
           "respuestas_correctas": [
             "Vegeta"
           ]
+        }
+      }
+    },
+    "Gintama": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Ramen.",
+            "Padre.",
+            "Vagabond."
+          ],
+          "respuestas_correctas": [
+            "Nishiki Matsugorou",
+            "Nishiki",
+            "Musashi"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "En la segunda encuesta de popularidad de Gintama, que sirvió de base para el Character Poll Arc, Shimura Shinpachi terminó en la posición número _____.",
+          "respuestas_correctas": [
+            "8"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Elizabeth y Kotarou Katsura.",
+            "Gintoki Sakata y Toushirou Hijikata.",
+            "Otae Shimura y Kyuubei Yagyuu.",
+            "Nobume Imai y Sougo Okita."
+          ],
+          "pregunta": "Una de las siguientes parejas tiene exactamente la misma altura, ¿cuál es?",
+          "respuesta_correcta": "Gintoki Sakata y Toushirou Hijikata."
+        },
+        "ordenar": {
+          "elementos": [
+            "Kagura (Time-skip arc).",
+            "Tsukuyo.",
+            "Ayame Sarutobi.",
+            "Nobume Imai."
+          ],
+          "pregunta": "Ordena a los personajes de mayor a menor tamaño de pechos."
+        },
+        "verdadero_falso": {
+          "pregunta": "El personaje que aparece en la portada del volumen 54 del manga es Tatsuma Sakamoto.",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Mono.",
+            "Parche.",
+            "Género."
+          ],
+          "respuestas_correctas": [
+            "Yagyuu Kyuubei",
+            "Yagyuu",
+            "Kyuubei",
+            "Kyubei",
+            "Yagyu",
+            "Kyuubei Yagyuu",
+            "Kyubei Yagyu",
+            "Yagyu Kyubei"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Pese a que el Rebelde Joui se llama Katsura, los personajes lo llaman erróneamente _____.",
+          "respuestas_correctas": [
+            "Zura",
+            "Sura"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Gintoki Sakata.",
+            "Katsura Kotarou.",
+            "Tatsuma Sakamoto.",
+            "Takasugi Shinsuke."
+          ],
+          "pregunta": "¿Cuál de estos cuatro personajes no estudió en la Shoka Sonjuku?",
+          "respuesta_correcta": "Tatsuma Sakamoto."
+        },
+        "ordenar": {
+          "elementos": [
+            "Kondou Isao.",
+            "Toushirou Hijikata.",
+            "Okita Sougo.",
+            "Saitou Shimaru."
+          ],
+          "pregunta": "Ordena de mayor a menor los siguientes personajes según su jerarquía del Shinsengumi:"
+        },
+        "verdadero_falso": {
+          "pregunta": "La raza Yato incrementa su poder al ser afectada por los rayos del sol.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Tama",
+            "Virus",
+            "Rey"
+          ],
+          "respuestas_correctas": [
+            "Tapir King",
+            "Rey Tapir"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Según el cálculo de un fan, el cual fue expuesto en el volumen 52 del manga, la media de chistes sucios por volumen que hay en los primeros 50 tomos es de _____.",
+          "respuestas_correctas": [
+            "38,4",
+            "38.4",
+            "38"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "1",
+            "11",
+            "17",
+            "Ninguno, es original del anime."
+          ],
+          "pregunta": "¿Cuál capítulo de manga es adaptado en el primer contenido animado de la franquicia?",
+          "respuesta_correcta": "17"
+        },
+        "ordenar": {
+          "elementos": [
+            "Kanbei.",
+            "Shinohara Shinnoshin.",
+            "Amarao Daisaku.",
+            "Tendou Soutatsu."
+          ],
+          "pregunta": "Ordena los siguientes personajes por orden de aparición:"
+        },
+        "verdadero_falso": {
+          "pregunta": "El nombre del mono de Kyuubei acaba con \"Chigau Yatsu Dakara﻿ Ikeno Medaka no Hou Dakara Raayu Yuuteimiyaoukimukou Pepepepepepepepepepepepe Bichiguso Maru\".",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Heterocromía.",
+            "Ciborg.",
+            "Star Wars."
+          ],
+          "respuestas_correctas": [
+            "Obi Hajime",
+            "Obi Wan",
+            "Obi'Wan",
+            "Obi' Wan",
+            "Obi One"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "La facción terrorista liderada por Takasugi Shinsuke se conoce como _____.",
+          "respuestas_correctas": [
+            "Kiheitai"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Farewell Shinsengumi.",
+            "Shogun Assassination.",
+            "Yoshiwara in Flames.",
+            "Otsu Arc."
+          ],
+          "pregunta": "¿Cuál de los siguientes arcos es el más largo en el anime?",
+          "respuesta_correcta": "Farewell Shinsengumi."
+        },
+        "ordenar": {
+          "elementos": [
+            "\"Pray\".",
+            "\"Togenkyo Alien\".",
+            "\"Sakura Mitsutsuki\".",
+            "\"I Wanna Be\"."
+          ],
+          "pregunta": "Ordena los siguientes openings por orden de emisión:"
+        },
+        "verdadero_falso": {
+          "pregunta": "La traducción literal de Gintama es \"Testículos\".",
+          "respuesta_correcta": "Falso"
         }
       }
     },
