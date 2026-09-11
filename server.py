@@ -114,17 +114,25 @@ async def request_guest_camera_setup(sid, data):
     if guest_sid:
         await sio.emit("open_camera_setup", data, to=guest_sid)
 
+# ⭐ NUEVO: relay de frames de cámara entre host y guest.
+# Mismo patrón que sync_cursor: le reenvío al que NO envió el frame.
+@sio.event
+async def camera_frame(sid, data):
+    target = guest_sid if sid == host_sid else host_sid
+    if target:
+        await sio.emit("camera_frame", data, to=target)
+
 # ⭐ NUEVO EVENTO: SUBIDA DE LA BASE DE DATOS A GITHUB VIA API
 @sio.event
 async def upload_database(sid, data):
     if not GITHUB_TOKEN:
         await sio.emit("upload_status", {"status": "error", "msg": "❌ Falta la variable GITHUB_TOKEN en Render."}, to=sid)
         return
-        
+
     try:
         api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH}"
         headers = {
-            "Authorization": f"Bearer {GITHUB_TOKEN}", 
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
             "Accept": "application/vnd.github.v3+json",
             "X-GitHub-Api-Version": "2022-11-28"
         }
@@ -140,13 +148,13 @@ async def upload_database(sid, data):
             # 2. Subir el archivo modificado
             content_str = json.dumps(data, ensure_ascii=False, indent=2)
             content_b64 = base64.b64encode(content_str.encode('utf-8')).decode('utf-8')
-            
+
             payload = {
                 "message": "📝 BD actualizada desde la App Cliente",
                 "content": content_b64,
                 "branch": "main"
             }
-            if sha: 
+            if sha:
                 payload["sha"] = sha
 
             async with session.put(api_url, headers=headers, json=payload) as resp:
@@ -155,7 +163,7 @@ async def upload_database(sid, data):
                 else:
                     err_txt = await resp.text()
                     await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error GitHub API: {resp.status} - Verifica tus permisos del Token."}, to=sid)
-                    
+
     except Exception as e:
         await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error de servidor: {e}"}, to=sid)
 
