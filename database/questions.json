@@ -130,8 +130,8 @@
         "adivinar_personaje": {
           "pistas": [
             "Niña",
-            "Saliva",
-            "Ex. Espada"
+            "Rota",
+            "Saliva"
           ],
           "respuestas_correctas": [
             "Nelliel Tu Odelschwanck",
@@ -193,12 +193,12 @@
         },
         "multiple_choice": {
           "opciones": [
-            "",
+            "Power tiene una camiseta con el texto \"76.1\".",
             "",
             "",
             ""
           ],
-          "pregunta": "El primer demonio en ser asesinado por Denji es",
+          "pregunta": "Una de las siguientes afirmaciones es falsa, ¿cuál?",
           "respuesta_correcta": ""
         },
         "ordenar": {
@@ -315,9 +315,9 @@
           ]
         },
         "completar_oracion": {
-          "pregunta": "¿Qué demonio mata a Himeno?",
+          "pregunta": "",
           "respuestas_correctas": [
-            "Demonio Gun"
+            ""
           ]
         },
         "multiple_choice": {
@@ -345,59 +345,336 @@
         }
       }
     },
-    "Dragon Ball": {
+    "Demon Slayer": {
       "dificil": {
-        "completar_oracion": {
-          "pregunta": "¿Quién entrenó a Goku en el Otro Mundo?",
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
           "respuestas_correctas": [
-            "Kaio-sama del Norte"
+            ""
           ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
-            "Gohan",
-            "Goten",
-            "Trunks",
-            "Vegeta Jr"
+            "",
+            "",
+            "",
+            ""
           ],
-          "pregunta": "¿Cómo se llama el hijo de Goku?",
-          "respuesta_correcta": "Gohan"
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
         },
         "verdadero_falso": {
-          "pregunta": "Goku es un Saiyajin",
-          "respuesta_correcta": "Verdadero"
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
         "multiple_choice": {
           "opciones": [
-            "5",
-            "6",
-            "7",
-            "8"
+            "",
+            "",
+            "",
+            ""
           ],
-          "pregunta": "¿Cuántas esferas del dragón existen en la Tierra?",
-          "respuesta_correcta": "7"
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       },
       "intermedia": {
         "adivinar_personaje": {
           "pistas": [
-            "Menciona 2 transformaciones de Goku",
+            "Pista 1...",
             "Pista 2...",
             "Pista 3..."
           ],
           "respuestas_correctas": [
-            "Super Saiyajin, Super Saiyajin 2, Super Saiyajin 3, Super Saiyajin God, Super Saiyajin Blue, Ultra Instinto"
+            ""
           ]
         },
         "completar_oracion": {
-          "pregunta": "El planeta natal de Goku es ___",
+          "pregunta": "Completa la oración: ___",
           "respuestas_correctas": [
-            "Vegeta"
+            ""
           ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      }
+    },
+    "Dragon Ball": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El Saiyan que Paragus asesinó en el planeta Bampa se llamaba _____.",
+          "respuestas_correctas": [
+            "Beets"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "7 días.",
+            "9 días.",
+            "10 días.",
+            "40 días."
+          ],
+          "pregunta": "¿Cuántos días sacian el hambre las semillas del ermitaño?",
+          "respuesta_correcta": "10 días."
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": ""
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "",
+            "",
+            ""
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "La técnica utilizada por Piccolo para destruir a Raditz junto con Goku se llama _____.",
+          "respuestas_correctas": [
+            "Makankōsappō",
+            "Makankosappo"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "¿Cuál es la razón principal por la que Goku no pudo vencer a Cell mediante fuerza bruta durante su combate?",
+          "respuesta_correcta": "Gohan"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": ""
+        },
+        "verdadero_falso": {
+          "pregunta": "Turtles es un personaje canónico de Dragon Ball.",
+          "respuesta_correcta": "Falso"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "0,1",
+            "0,01",
+            "0,001",
+            "0,0001"
+          ],
+          "pregunta": "¿Cuál es el nivel de poder de Umigame en Dragon Ball Z?",
+          "respuesta_correcta": "0,001"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "",
+            "",
+            ""
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El verdadero nombre humano del Androide 17 antes de ser modificado por el Dr. Gero es _____.",
+          "respuestas_correctas": [
+            "Lapis"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": "10 días."
+        },
+        "ordenar": {
+          "elementos": [
+            "Champa.",
+            "Freezer.",
+            "Chappali.",
+            "Dyspo."
+          ],
+          "pregunta": "Ordena los siguientes personajes de menor a mayor según el número de su universo:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
@@ -1162,8 +1439,8 @@
           ],
           "respuestas_correctas": [
             "Sayuri Ichinose",
-            "Sayuri",
-            ""
+            "Ichinose Sayuri",
+            "Sayuri"
           ]
         },
         "completar_oracion": {
