@@ -1,8 +1,0 @@
-{
-  "activado": true,
-  "cantidad_preguntas": 25,
-  "tiempo_por_pregunta": 30,
-  "puntos_por_acierto": 100,
-  "usar_letras": true,
-  "letras": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-}
