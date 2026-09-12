@@ -345,172 +345,6 @@
         }
       }
     },
-    "Demon Slayer": {
-      "dificil": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "facil": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "imposible": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "intermedia": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      }
-    },
     "Dragon Ball": {
       "dificil": {
         "adivinar_personaje": {
@@ -914,6 +748,172 @@
           "respuestas_correctas": [
             "Masamichi Yaga"
           ]
+        }
+      }
+    },
+    "Kimetsu no yaiba": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
         }
       }
     },
