@@ -7,7 +7,7 @@
         "tipo": "empieza"
       },
       "B": {
-        "pregunta": "Afección de Ruka Sarashina por que la que su corazón late más lento de lo normal.",
+        "pregunta": "Afección de Ruka Sarashina por la que su corazón late más lento de lo normal.",
         "respuesta": "Bradicardia",
         "tipo": "empieza"
       },
@@ -124,6 +124,143 @@
       "Y": {
         "pregunta": "",
         "respuesta": "Yuki (Aoi)",
+        "tipo": "empieza"
+      },
+      "Z": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Ñ": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      }
+    },
+    "Uma Musume": {
+      "A": {
+        "pregunta": "Uma científica obsesionada con la idea de superar los límites de su cuerpo.",
+        "respuesta": "Agnes Tachyon",
+        "tipo": "empieza"
+      },
+      "B": {
+        "pregunta": "La amiga principal de Oguri Cap en el anime de Cinderella Gray.",
+        "respuesta": "Belno Light",
+        "tipo": "empieza"
+      },
+      "C": {
+        "pregunta": "Especie de animales reales en los que están basadas las Umas de Uma Musume.",
+        "respuesta": "Caballos",
+        "tipo": "empieza"
+      },
+      "D": {
+        "pregunta": "Carrera de caballos purasangre de tres años más importante y prestigiosa de Japón.",
+        "respuesta": "Derby Japonés",
+        "tipo": "empieza"
+      },
+      "E": {
+        "pregunta": "Nombre del entrenador original de Spica.",
+        "respuesta": "Entrenador",
+        "tipo": "empieza"
+      },
+      "F": {
+        "pregunta": "Líder del dormitorio de Ritto, que inspiró a Jungle Pocket a correr antes de su debut en las carreras.",
+        "respuesta": "Fuji Kiseki",
+        "tipo": "empieza"
+      },
+      "G": {
+        "pregunta": "Uma Musume legendaria de Spica de características erráticas y cabello blanco.",
+        "respuesta": "Gold Ship",
+        "tipo": "empieza"
+      },
+      "H": {
+        "pregunta": "Objeto que llevan las Umas en los zapatos para protegerlas y mejorar su apoyo.",
+        "respuesta": "Herraduras",
+        "tipo": "empieza"
+      },
+      "I": {
+        "pregunta": "Pareja real del caballo Mejiro McQueen con el que comúnmente se hacen bromas de netorare hacia Toukai Teio.",
+        "respuesta": "Ikuno Dictus\n",
+        "tipo": "empieza"
+      },
+      "J": {
+        "pregunta": "Protagonista de la película \"Beginning of a New Era\", que rivaliza con Agnes Tachyon.",
+        "respuesta": "Jungle Pocket",
+        "tipo": "empieza"
+      },
+      "K": {
+        "pregunta": "La carrera más larga de la triple corona clásica.",
+        "respuesta": "Kikuka Shō",
+        "tipo": "empieza"
+      },
+      "L": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "M": {
+        "pregunta": "",
+        "respuesta": "Manhattan Cafe",
+        "tipo": "empieza"
+      },
+      "N": {
+        "pregunta": "",
+        "respuesta": "Narita Top Road",
+        "tipo": "empieza"
+      },
+      "O": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "P": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Q": {
+        "pregunta": "",
+        "respuesta": "Mejiro McQueen",
+        "tipo": "contiene"
+      },
+      "R": {
+        "pregunta": "",
+        "respuesta": "Road to the Top",
+        "tipo": "empieza"
+      },
+      "S": {
+        "pregunta": "",
+        "respuesta": "Spica",
+        "tipo": "empieza"
+      },
+      "T": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "U": {
+        "pregunta": "La canción más famosa de la saga Uma Musume.",
+        "respuesta": "Umapyoi Densetsu",
+        "tipo": "empieza"
+      },
+      "V": {
+        "pregunta": "Uma Musume inspirada en una de las pocas yeguas que ganaron el Derby japonés compitiendo contra machos, que comparte nombre con una bebida alcohólica.",
+        "respuesta": "Vodka\n",
+        "tipo": "empieza"
+      },
+      "W": {
+        "pregunta": "Uma Musume rival de Special Week y compañera de cuarto de El Condor Pasa.",
+        "respuesta": "Grass Wonder",
+        "tipo": "contiene"
+      },
+      "X": {
+        "pregunta": "Uma Musume hermana de Cheval Grand y Vivlos, rival de Gentildonna.",
+        "respuesta": "Verxina",
+        "tipo": "contiene"
+      },
+      "Y": {
+        "pregunta": "",
+        "respuesta": "Yukino Bijin\n",
         "tipo": "empieza"
       },
       "Z": {
