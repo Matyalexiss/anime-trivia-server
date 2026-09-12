@@ -1,59 +1,59 @@
 {
   "animes": {
-    "Rent a girlfriend": {
+    "Rent a Girlfriend": {
       "A": {
-        "pregunta": "XD",
-        "respuesta": "A",
+        "pregunta": "Nombre de la seiyuu de Chizuru Ichinose, que además canta el opening 5: \"Non Scenario Etude\".",
+        "respuesta": "Amamiya Sora",
         "tipo": "empieza"
       },
       "B": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Afección de Ruka Sarashina por que la que su corazón late más lento de lo normal.",
+        "respuesta": "Bradicardia",
         "tipo": "empieza"
       },
       "C": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Nombre de la hija de Kazumi Ichinose, cuyo significado es \"mil grullas\".",
+        "respuesta": "Chizuru",
         "tipo": "empieza"
       },
       "D": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Empresa de novias de alquiler ",
+        "respuesta": "Diamond",
         "tipo": "empieza"
       },
       "E": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Ending de la tercera temporada de Rent a Girlfriend, que tiene una versión balada.",
+        "respuesta": "End Roll",
         "tipo": "empieza"
       },
       "F": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Primer ending de Rent a Girlfriend, que representa metafóricamente la masturbación de Kazuya.",
+        "respuesta": "First Drop",
         "tipo": "empieza"
       },
       "G": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Aquello que Chizuru Ichinose tiene de foto de perfil en LINE.",
+        "respuesta": "Gato",
         "tipo": "empieza"
       },
       "H": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Archipiélago asociado al resort donde Kazuya, Chizuru y otros personajes van de vacaciones en uno de los arcos más extensos del manga.",
+        "respuesta": "Hawaii",
         "tipo": "empieza"
       },
       "I": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Edificio del Paraíso frente al que Chizuru huye de Kazuya cuando este intenta confesarle sus sentimientos.",
+        "respuesta": "Iglesia",
         "tipo": "empieza"
       },
       "J": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Joypolis",
         "tipo": "empieza"
       },
       "K": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Kuribayashi",
         "tipo": "empieza"
       },
       "L": {
@@ -93,7 +93,7 @@
       },
       "S": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Shimoda",
         "tipo": "empieza"
       },
       "T": {
@@ -118,12 +118,12 @@
       },
       "X": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Kanojo x Kanojo",
         "tipo": "empieza"
       },
       "Y": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Yuki (Aoi)",
         "tipo": "empieza"
       },
       "Z": {
