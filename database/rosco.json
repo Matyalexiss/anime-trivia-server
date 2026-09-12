@@ -194,9 +194,9 @@
         "tipo": "empieza"
       },
       "L": {
-        "pregunta": "",
-        "respuesta": "",
-        "tipo": "empieza"
+        "pregunta": "Protagonista del manga Star Blossom, miembro del clan de las Sakuras.",
+        "respuesta": "Sakura Laurel",
+        "tipo": "contiene"
       },
       "M": {
         "pregunta": "",
@@ -209,13 +209,13 @@
         "tipo": "empieza"
       },
       "O": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Carrera G1 de 2 mil metros, parte de la triple corona de primavera.",
+        "respuesta": "Osaka Hai",
         "tipo": "empieza"
       },
       "P": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Primera carrera ganada por Oguri Cap al llegar a las nacionales en el anime de Cinderella Gray.",
+        "respuesta": "Pegasus Stakes",
         "tipo": "empieza"
       },
       "Q": {
@@ -235,7 +235,7 @@
       },
       "T": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Tamamo Cross",
         "tipo": "empieza"
       },
       "U": {
@@ -264,9 +264,9 @@
         "tipo": "empieza"
       },
       "Z": {
-        "pregunta": "",
-        "respuesta": "",
-        "tipo": "empieza"
+        "pregunta": "Uma Musume pelinaranja lesionada en la primera temporada del anime original.",
+        "respuesta": "Silence Suzuka",
+        "tipo": "contiene"
       },
       "Ñ": {
         "pregunta": "",
