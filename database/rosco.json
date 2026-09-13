@@ -52,38 +52,38 @@
         "tipo": "empieza"
       },
       "K": {
-        "pregunta": "",
-        "respuesta": "Kuribayashi",
+        "pregunta": "Taxista, abuelo materno de Chizuru Ichinose, que falleció en un accidente de tránsito.",
+        "respuesta": "Katsuhito Ichinose",
         "tipo": "empieza"
       },
       "L": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Nombre en inglés de la mascota de Kazuya, que aparece recurrentemente como gag reaccionando a los eventos de los episodios.",
+        "respuesta": "Lungfish",
         "tipo": "empieza"
       },
       "M": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Mother Farm",
         "tipo": "empieza"
       },
       "N": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Nanami",
         "tipo": "empieza"
       },
       "O": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Odaiba",
         "tipo": "empieza"
       },
       "P": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Película",
         "tipo": "empieza"
       },
       "Q": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Edad con la que Ruka comenzó a trabajar como novia de alquiler, según estimaciones.",
+        "respuesta": "Quince",
         "tipo": "empieza"
       },
       "R": {
@@ -98,12 +98,12 @@
       },
       "T": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Twistor",
         "tipo": "empieza"
       },
       "U": {
         "pregunta": "",
-        "respuesta": "",
+        "respuesta": "Umi Nakano",
         "tipo": "empieza"
       },
       "V": {
@@ -112,24 +112,24 @@
         "tipo": "empieza"
       },
       "W": {
-        "pregunta": "",
-        "respuesta": "",
-        "tipo": "empieza"
+        "pregunta": "Apellido de la novia de alquiler pelirrosada, protagonista del spin-off Kanojo Hitomishirimasu.",
+        "respuesta": "Sakurasawa",
+        "tipo": "contiene"
       },
       "X": {
-        "pregunta": "",
-        "respuesta": "Kanojo x Kanojo",
+        "pregunta": "Nombre actual de la red social con la que Mami Nanami difamaba a Kazuya en su cuenta candado.",
+        "respuesta": "X",
         "tipo": "empieza"
       },
       "Y": {
-        "pregunta": "",
+        "pregunta": "Apellido de la seiyuu de Mami Nanami, caracterizada por darle miedo a sus propios compañeros con la calidad de sus interpretaciones.",
         "respuesta": "Yuki (Aoi)",
         "tipo": "empieza"
       },
       "Z": {
-        "pregunta": "",
-        "respuesta": "",
-        "tipo": "empieza"
+        "pregunta": "Nombre del exnovio de Mami Nanami, futuro heredero de Nagomi Sake, apodado como \"El Soñador\".",
+        "respuesta": "Kazuya",
+        "tipo": "contiene"
       },
       "Ñ": {
         "pregunta": "",
