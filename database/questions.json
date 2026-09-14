@@ -1,5 +1,171 @@
 {
   "animes": {
+    "Attack on Titan": {
+      "dificil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "asfdds",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
+          "respuestas_correctas": [
+            "Zeke Yeager"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "",
+          "respuesta_correcta": ""
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "facil": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Chizuru es virgen?",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "si."
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Kazuya tiene una licencia de conducir?",
+          "respuestas_correctas": [
+            "si"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Titán Colosal",
+            "Titán de Ataque",
+            "Titán Acorazado",
+            "Titán Bestia"
+          ],
+          "pregunta": "¿Qué tipo de titán es Eren inicialmente?",
+          "respuesta_correcta": "Titán de Ataque"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "¿Eren Yeager es el protagonista de Shingeki no Kyojin?",
+          "respuesta_correcta": "Verdadero"
+        }
+      },
+      "imposible": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Pista 1...",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "Completa la oración: ___",
+          "respuestas_correctas": [
+            ""
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "5 años",
+            "10 años",
+            "15 años",
+            "20 años"
+          ],
+          "pregunta": "¿Cuántos años han pasado desde la caída del Muro María?",
+          "respuesta_correcta": "5 años"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "",
+          "respuesta_correcta": "verdadero"
+        }
+      },
+      "intermedia": {
+        "adivinar_personaje": {
+          "pistas": [
+            "Menciona 2 de los 9 titanes",
+            "Pista 2...",
+            "Pista 3..."
+          ],
+          "respuestas_correctas": [
+            "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
+          ]
+        },
+        "completar_oracion": {
+          "pregunta": "El nombre del escuadrón de élite es ___",
+          "respuestas_correctas": [
+            "Levi"
+          ]
+        },
+        "multiple_choice": {
+          "opciones": [
+            "Si",
+            "Obvio",
+            "No",
+            "Supongo"
+          ],
+          "pregunta": "Eren es miagejero?",
+          "respuesta_correcta": "Si"
+        },
+        "ordenar": {
+          "elementos": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "pregunta": "Ordena los siguientes elementos:"
+        },
+        "verdadero_falso": {
+          "pregunta": "Kazuya vivio en Royal hill nerima?",
+          "respuesta_correcta": "Verdadero"
+        }
+      }
+    },
     "Bleach": {
       "dificil": {
         "adivinar_personaje": {
@@ -751,172 +917,6 @@
         }
       }
     },
-    "Kimetsu no yaiba": {
-      "dificil": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "facil": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "imposible": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "intermedia": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      }
-    },
     "Mushoku": {
       "dificil": {
         "completar_oracion": {
@@ -1301,7 +1301,7 @@
         }
       }
     },
-    "Rent a GF": {
+    "Rent a Girlfriend": {
       "dificil": {
         "adivinar_personaje": {
           "pistas": [
@@ -1471,172 +1471,6 @@
         "verdadero_falso": {
           "pregunta": "En el arco del Paraíso Hawaiiano, Kazuya, Chizuru, Mami, Mini, los amigos de Kazuya y su familia viajan a un Resort Hawaiiano de vacaciones.",
           "respuesta_correcta": "Falso"
-        }
-      }
-    },
-    "Shingeki": {
-      "dificil": {
-        "adivinar_personaje": {
-          "pistas": [
-            "asfdds",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "¿Quién es el verdadero nombre del Titán Bestia?",
-          "respuestas_correctas": [
-            "Zeke Yeager"
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "",
-          "respuesta_correcta": ""
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "facil": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Chizuru es virgen?",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            "si."
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Kazuya tiene una licencia de conducir?",
-          "respuestas_correctas": [
-            "si"
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "Titán Colosal",
-            "Titán de Ataque",
-            "Titán Acorazado",
-            "Titán Bestia"
-          ],
-          "pregunta": "¿Qué tipo de titán es Eren inicialmente?",
-          "respuesta_correcta": "Titán de Ataque"
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "¿Eren Yeager es el protagonista de Shingeki no Kyojin?",
-          "respuesta_correcta": "Verdadero"
-        }
-      },
-      "imposible": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Pista 1...",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "Completa la oración: ___",
-          "respuestas_correctas": [
-            ""
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "5 años",
-            "10 años",
-            "15 años",
-            "20 años"
-          ],
-          "pregunta": "¿Cuántos años han pasado desde la caída del Muro María?",
-          "respuesta_correcta": "5 años"
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "",
-          "respuesta_correcta": "verdadero"
-        }
-      },
-      "intermedia": {
-        "adivinar_personaje": {
-          "pistas": [
-            "Menciona 2 de los 9 titanes",
-            "Pista 2...",
-            "Pista 3..."
-          ],
-          "respuestas_correctas": [
-            "Titán de Ataque, Titán Colosal, Titán Acorazado, Titán Bestia, Titán Hembra, Titán Mandíbula, Titán Carguero, Titán Martillo de Guerra, Titán Fundador"
-          ]
-        },
-        "completar_oracion": {
-          "pregunta": "El nombre del escuadrón de élite es ___",
-          "respuestas_correctas": [
-            "Levi"
-          ]
-        },
-        "multiple_choice": {
-          "opciones": [
-            "Si",
-            "Obvio",
-            "No",
-            "Supongo"
-          ],
-          "pregunta": "Eren es miagejero?",
-          "respuesta_correcta": "Si"
-        },
-        "ordenar": {
-          "elementos": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "pregunta": "Ordena los siguientes elementos:"
-        },
-        "verdadero_falso": {
-          "pregunta": "Kazuya vivio en Royal hill nerima?",
-          "respuesta_correcta": "Verdadero"
         }
       }
     },
