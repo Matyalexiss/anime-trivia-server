@@ -19,10 +19,8 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 REPO_OWNER = "Matyalexiss"
 REPO_NAME = "anime-trivia-server"
 FILE_PATH = "database/questions.json"
-FILE_PATH_ROSCO = "database/rosco.json" 
-FILE_PATH_LEADERBOARD = "database/jugadores.json" # ⭐ Nueva ruta para la tabla
+FILE_PATH_ROSCO = "database/rosco.json"
 
-# ⭐ ENDPOINT RAÍZ
 async def index(request):
     return web.Response(
         text="🎮 Anime Trivia Server is running. Conecta el cliente con socket.io.",
@@ -39,8 +37,6 @@ async def health(request):
 
 app.router.add_get('/', index)
 app.router.add_get('/health', health)
-
-# ===== EVENTOS SOCKET.IO =====
 
 @sio.event
 async def connect(sid, environ):
@@ -122,7 +118,6 @@ async def camera_frame(sid, data):
     if target:
         await sio.emit("camera_frame", data, to=target)
 
-# ⭐ SUBIDA DE LA BASE DE DATOS TRIVIA A GITHUB
 @sio.event
 async def upload_database(sid, data):
     if not GITHUB_TOKEN:
@@ -159,13 +154,11 @@ async def upload_database(sid, data):
                 if resp.status in (200, 201):
                     await sio.emit("upload_status", {"status": "success", "msg": "✅ ¡Base de datos guardada en la nube!"}, to=sid)
                 else:
-                    err_txt = await resp.text()
                     await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error GitHub API: {resp.status}"}, to=sid)
 
     except Exception as e:
         await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error de servidor: {e}"}, to=sid)
 
-# ⭐ SUBIDA DE LA BASE DE DATOS DEL ROSCO A GITHUB
 @sio.event
 async def upload_rosco(sid, data):
     if not GITHUB_TOKEN:
@@ -202,21 +195,26 @@ async def upload_rosco(sid, data):
                 if resp.status in (200, 201):
                     await sio.emit("upload_status", {"status": "success", "msg": "✅ ¡Rosco guardado en la nube!"}, to=sid)
                 else:
-                    err_txt = await resp.text()
                     await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error GitHub API: {resp.status}"}, to=sid)
 
     except Exception as e:
         await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error de servidor: {e}"}, to=sid)
 
-# ⭐ NUEVO EVENTO: SUBIDA DEL LEADERBOARD A GITHUB
+# ⭐ LEADERBOARD SEPARADO (Trivia y Rosco)
 @sio.event
-async def upload_leaderboard(sid, data):
+async def upload_leaderboard(sid, data_dict):
     if not GITHUB_TOKEN:
         await sio.emit("upload_status", {"status": "error", "msg": "❌ Falta la variable GITHUB_TOKEN en Render."}, to=sid)
         return
 
     try:
-        api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH_LEADERBOARD}"
+        tipo = data_dict.get("tipo", "trivia")
+        datos = data_dict.get("data", [])
+        
+        # Arma la ruta dinámica basada en el tipo
+        file_path = f"database/leaderboard_{tipo}.json"
+        api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{file_path}"
+        
         headers = {
             "Authorization": f"Bearer {GITHUB_TOKEN}",
             "Accept": "application/vnd.github.v3+json",
@@ -230,11 +228,11 @@ async def upload_leaderboard(sid, data):
                     resp_data = await resp.json()
                     sha = resp_data.get("sha")
 
-            content_str = json.dumps(data, ensure_ascii=False, indent=2)
+            content_str = json.dumps(datos, ensure_ascii=False, indent=2)
             content_b64 = base64.b64encode(content_str.encode('utf-8')).decode('utf-8')
 
             payload = {
-                "message": "🏆 Leaderboard actualizado desde la App Cliente",
+                "message": f"🏆 Leaderboard ({tipo}) actualizado desde la App",
                 "content": content_b64,
                 "branch": "main"
             }
@@ -243,9 +241,8 @@ async def upload_leaderboard(sid, data):
 
             async with session.put(api_url, headers=headers, json=payload) as resp:
                 if resp.status in (200, 201):
-                    await sio.emit("upload_status", {"status": "success", "msg": "✅ ¡Leaderboard guardado en la nube!"}, to=sid)
+                    await sio.emit("upload_status", {"status": "success", "msg": f"✅ ¡Leaderboard {tipo.capitalize()} guardado!"}, to=sid)
                 else:
-                    err_txt = await resp.text()
                     await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error GitHub API: {resp.status}"}, to=sid)
 
     except Exception as e:
