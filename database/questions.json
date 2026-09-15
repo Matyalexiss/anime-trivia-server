@@ -595,7 +595,7 @@
         "verdadero_falso": {
           "pregunta": "Turtles es un personaje canónico de Dragon Ball.",
           "respuesta_correcta": "Falso",
-          "ruta_imagen": "",
+          "ruta_imagen": "Turles.png",
           "tiene_imagen": true
         }
       },
