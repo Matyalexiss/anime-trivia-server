@@ -579,7 +579,9 @@
             ""
           ],
           "pregunta": "¿Cuál es la razón principal por la que Goku no pudo vencer a Cell mediante fuerza bruta durante su combate?",
-          "respuesta_correcta": "Gohan"
+          "respuesta_correcta": "Gohan",
+          "ruta_imagen": "cell.png",
+          "tiene_imagen": true
         },
         "ordenar": {
           "elementos": [
@@ -593,7 +595,7 @@
         "verdadero_falso": {
           "pregunta": "Turtles es un personaje canónico de Dragon Ball.",
           "respuesta_correcta": "Falso",
-          "ruta_imagen": "Turles.png",
+          "ruta_imagen": "",
           "tiene_imagen": true
         }
       },
