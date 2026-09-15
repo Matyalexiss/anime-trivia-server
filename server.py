@@ -19,7 +19,8 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 REPO_OWNER = "Matyalexiss"
 REPO_NAME = "anime-trivia-server"
 FILE_PATH = "database/questions.json"
-FILE_PATH_ROSCO = "database/rosco.json" # ⭐ Nueva ruta
+FILE_PATH_ROSCO = "database/rosco.json" 
+FILE_PATH_LEADERBOARD = "database/jugadores.json" # ⭐ Nueva ruta para la tabla
 
 # ⭐ ENDPOINT RAÍZ
 async def index(request):
@@ -164,8 +165,7 @@ async def upload_database(sid, data):
     except Exception as e:
         await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error de servidor: {e}"}, to=sid)
 
-
-# ⭐ NUEVO EVENTO: SUBIDA DE LA BASE DE DATOS DEL ROSCO A GITHUB
+# ⭐ SUBIDA DE LA BASE DE DATOS DEL ROSCO A GITHUB
 @sio.event
 async def upload_rosco(sid, data):
     if not GITHUB_TOKEN:
@@ -201,6 +201,49 @@ async def upload_rosco(sid, data):
             async with session.put(api_url, headers=headers, json=payload) as resp:
                 if resp.status in (200, 201):
                     await sio.emit("upload_status", {"status": "success", "msg": "✅ ¡Rosco guardado en la nube!"}, to=sid)
+                else:
+                    err_txt = await resp.text()
+                    await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error GitHub API: {resp.status}"}, to=sid)
+
+    except Exception as e:
+        await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error de servidor: {e}"}, to=sid)
+
+# ⭐ NUEVO EVENTO: SUBIDA DEL LEADERBOARD A GITHUB
+@sio.event
+async def upload_leaderboard(sid, data):
+    if not GITHUB_TOKEN:
+        await sio.emit("upload_status", {"status": "error", "msg": "❌ Falta la variable GITHUB_TOKEN en Render."}, to=sid)
+        return
+
+    try:
+        api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{FILE_PATH_LEADERBOARD}"
+        headers = {
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json",
+            "X-GitHub-Api-Version": "2022-11-28"
+        }
+
+        async with aiohttp.ClientSession() as session:
+            async with session.get(api_url, headers=headers) as resp:
+                sha = None
+                if resp.status == 200:
+                    resp_data = await resp.json()
+                    sha = resp_data.get("sha")
+
+            content_str = json.dumps(data, ensure_ascii=False, indent=2)
+            content_b64 = base64.b64encode(content_str.encode('utf-8')).decode('utf-8')
+
+            payload = {
+                "message": "🏆 Leaderboard actualizado desde la App Cliente",
+                "content": content_b64,
+                "branch": "main"
+            }
+            if sha:
+                payload["sha"] = sha
+
+            async with session.put(api_url, headers=headers, json=payload) as resp:
+                if resp.status in (200, 201):
+                    await sio.emit("upload_status", {"status": "success", "msg": "✅ ¡Leaderboard guardado en la nube!"}, to=sid)
                 else:
                     err_txt = await resp.text()
                     await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error GitHub API: {resp.status}"}, to=sid)
