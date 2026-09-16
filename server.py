@@ -55,7 +55,7 @@ async def register(sid, data):
     role = data.get("role")
 
     if role == "host":
-        sio.enter_room(sid, "hosts") # ⭐ Permite múltiples administradores sin conflicto
+        await sio.enter_room(sid, "hosts")
         print(f"👑 Anfitrión registrado y añadido a sala 'hosts': {sid}")
         if guest_sid and guest_name:
             await sio.emit("guest_waiting", {"name": guest_name}, to=sid)
