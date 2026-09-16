@@ -9,7 +9,7 @@ sio = socketio.AsyncServer(cors_allowed_origins='*', async_mode='aiohttp')
 app = web.Application()
 sio.attach(app)
 
-host_sid = None
+# ⭐ Ya no limitamos a un solo host, usamos "rooms" de SocketIO
 guest_sid = None
 guest_name = ""
 guest_cameras_data = None
@@ -30,7 +30,6 @@ async def index(request):
 async def health(request):
     return web.json_response({
         "status": "ok",
-        "host_connected": host_sid is not None,
         "guest_connected": guest_sid is not None,
         "guest_name": guest_name or None,
     })
@@ -44,10 +43,8 @@ async def connect(sid, environ):
 
 @sio.event
 async def disconnect(sid):
-    global host_sid, guest_sid, guest_name, guest_cameras_data
+    global guest_sid, guest_name, guest_cameras_data
     print(f"❌ Usuario desconectado: {sid}")
-    if sid == host_sid:
-        host_sid = None
     if sid == guest_sid:
         guest_sid = None
         guest_name = ""
@@ -55,30 +52,30 @@ async def disconnect(sid):
 
 @sio.event
 async def register(sid, data):
-    global host_sid, guest_sid, guest_name
+    global guest_sid, guest_name
     role = data.get("role")
 
     if role == "host":
-        host_sid = sid
-        print(f"👑 Anfitrión (Briff) registrado: {sid}")
+        sio.enter_room(sid, "hosts") # ⭐ Metemos a todos los administradores en una sala
+        print(f"👑 Anfitrión registrado y añadido a sala 'hosts': {sid}")
+        # Le enviamos el estado actual a ESTE administrador que acaba de entrar
         if guest_sid and guest_name:
-            await sio.emit("guest_waiting", {"name": guest_name}, to=host_sid)
+            await sio.emit("guest_waiting", {"name": guest_name}, to=sid)
         if guest_cameras_data:
-            await sio.emit("camera_list", guest_cameras_data, to=host_sid)
+            await sio.emit("camera_list", guest_cameras_data, to=sid)
 
     elif role == "guest":
         guest_sid = sid
         guest_name = data.get("name", "Participante")
         print(f"👤 Participante esperando: {guest_name} ({sid})")
-        if host_sid:
-            await sio.emit("guest_waiting", {"name": guest_name}, to=host_sid)
+        # Avisamos a TODOS los administradores conectados
+        await sio.emit("guest_waiting", {"name": guest_name}, room="hosts")
 
 @sio.event
 async def send_camera_list(sid, data):
     global guest_cameras_data
     guest_cameras_data = data
-    if host_sid:
-        await sio.emit("camera_list", data, to=host_sid)
+    await sio.emit("camera_list", data, room="hosts")
 
 @sio.event
 async def select_camera(sid, data):
@@ -87,25 +84,30 @@ async def select_camera(sid, data):
 
 @sio.event
 async def sync_view(sid, data):
-    if sid == host_sid and guest_sid:
+    # Los hosts mandan esto al participante
+    if guest_sid:
         await sio.emit("sync_view", data, to=guest_sid)
 
 @sio.event
 async def sync_cursor(sid, data):
-    target = guest_sid if sid == host_sid else host_sid
-    if target:
-        await sio.emit("sync_cursor", data, to=target)
+    if sid == guest_sid:
+        await sio.emit("sync_cursor", data, room="hosts")
+    else:
+        if guest_sid:
+            await sio.emit("sync_cursor", data, to=guest_sid)
 
 @sio.event
 async def sync_game(sid, data):
-    target = guest_sid if sid == host_sid else host_sid
-    if target:
-        if sid == guest_sid and isinstance(data, dict):
+    if sid == guest_sid:
+        if isinstance(data, dict):
             action = data.get("action")
             if action in ("guest_camera_ready", "guest_camera_reset"):
                 data = dict(data)
                 data["guestName"] = guest_name
-        await sio.emit("sync_game", data, to=target)
+        await sio.emit("sync_game", data, room="hosts")
+    else:
+        if guest_sid:
+            await sio.emit("sync_game", data, to=guest_sid)
 
 @sio.event
 async def request_guest_camera_setup(sid, data):
@@ -114,9 +116,11 @@ async def request_guest_camera_setup(sid, data):
 
 @sio.event
 async def camera_frame(sid, data):
-    target = guest_sid if sid == host_sid else host_sid
-    if target:
-        await sio.emit("camera_frame", data, to=target)
+    if sid == guest_sid:
+        await sio.emit("camera_frame", data, room="hosts")
+    else:
+        if guest_sid:
+            await sio.emit("camera_frame", data, to=guest_sid)
 
 @sio.event
 async def upload_database(sid, data):
@@ -200,7 +204,6 @@ async def upload_rosco(sid, data):
     except Exception as e:
         await sio.emit("upload_status", {"status": "error", "msg": f"❌ Error de servidor: {e}"}, to=sid)
 
-# ⭐ LEADERBOARD SEPARADO (Trivia y Rosco)
 @sio.event
 async def upload_leaderboard(sid, data_dict):
     if not GITHUB_TOKEN:
@@ -211,7 +214,6 @@ async def upload_leaderboard(sid, data_dict):
         tipo = data_dict.get("tipo", "trivia")
         datos = data_dict.get("data", [])
         
-        # Arma la ruta dinámica basada en el tipo
         file_path = f"database/leaderboard_{tipo}.json"
         api_url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/contents/{file_path}"
         
