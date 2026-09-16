@@ -1,5 +1,142 @@
 {
   "animes": {
+    "Bleach": {
+      "A": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "B": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "C": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "D": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "E": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "F": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "G": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "H": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "I": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "J": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "K": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "L": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "M": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "N": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "O": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "P": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Q": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "R": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "S": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "T": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "U": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "V": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "W": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "X": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Y": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Z": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Ñ": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      }
+    },
     "Rent a Girlfriend": {
       "A": {
         "pregunta": "Nombre de la seiyuu de Chizuru Ichinose, que además canta el opening 5: \"Non Scenario Etude\".",
@@ -17,7 +154,7 @@
         "tipo": "empieza"
       },
       "D": {
-        "pregunta": "Empresa de novias de alquiler ",
+        "pregunta": "Empresa de novias de alquiler en la que trabaja Mizuhara.",
         "respuesta": "Diamond",
         "tipo": "empieza"
       },
@@ -47,7 +184,7 @@
         "tipo": "empieza"
       },
       "J": {
-        "pregunta": "",
+        "pregunta": "Nombre del parque temático de atracciones donde transcurre la cita de Kazuya y Chizuru en el arco del Amor y la Novia.",
         "respuesta": "Joypolis",
         "tipo": "empieza"
       },
@@ -62,22 +199,22 @@
         "tipo": "empieza"
       },
       "M": {
-        "pregunta": "",
+        "pregunta": "Nombre de la granja donde Kazuya planea su segunda cita real con Chizuru.",
         "respuesta": "Mother Farm",
         "tipo": "empieza"
       },
       "N": {
-        "pregunta": "",
+        "pregunta": "Apellido de la exnovia de Kazuya.",
         "respuesta": "Nanami",
         "tipo": "empieza"
       },
       "O": {
-        "pregunta": "",
+        "pregunta": "Famosa isla artificial japonesa donde Chizuru rechaza a Kazuya en un muelle.",
         "respuesta": "Odaiba",
         "tipo": "empieza"
       },
       "P": {
-        "pregunta": "",
+        "pregunta": "Proyecto que lleva a Kazuya a organizar un crowdfunding para financiar su producción.",
         "respuesta": "Película",
         "tipo": "empieza"
       },
@@ -87,28 +224,28 @@
         "tipo": "empieza"
       },
       "R": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Nombre de la novia de alquiler que contrata Kuribayashi al inicio del manga.",
+        "respuesta": "Ruka",
         "tipo": "empieza"
       },
       "S": {
-        "pregunta": "",
+        "pregunta": "Ciudad costera de Japón donde transcurre el arco de la playa en la primera temporada del anime.",
         "respuesta": "Shimoda",
         "tipo": "empieza"
       },
       "T": {
-        "pregunta": "",
-        "respuesta": "Twistor",
+        "pregunta": "Juego de mesa que puso a prueba el equilibrio, flexibilidad y cercanía de Kazuya y Chizuru durante la convivencia.",
+        "respuesta": "Twister",
         "tipo": "empieza"
       },
       "U": {
-        "pregunta": "",
+        "pregunta": "Rival amoroso del protagonista, que comúnmente imagina robándole a Mizuhara y cuyo nombre significa \"mar\".",
         "respuesta": "Umi Nakano",
         "tipo": "empieza"
       },
       "V": {
-        "pregunta": "",
-        "respuesta": "",
+        "pregunta": "Relación de Kazuya y Mini cuando esta aparece por primera vez en el manga.",
+        "respuesta": "Vecinos",
         "tipo": "empieza"
       },
       "W": {
