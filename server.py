@@ -9,7 +9,6 @@ sio = socketio.AsyncServer(cors_allowed_origins='*', async_mode='aiohttp')
 app = web.Application()
 sio.attach(app)
 
-# ⭐ Ya no limitamos a un solo host, usamos "rooms" de SocketIO
 guest_sid = None
 guest_name = ""
 guest_cameras_data = None
@@ -56,9 +55,8 @@ async def register(sid, data):
     role = data.get("role")
 
     if role == "host":
-        sio.enter_room(sid, "hosts") # ⭐ Metemos a todos los administradores en una sala
+        sio.enter_room(sid, "hosts") # ⭐ Permite múltiples administradores sin conflicto
         print(f"👑 Anfitrión registrado y añadido a sala 'hosts': {sid}")
-        # Le enviamos el estado actual a ESTE administrador que acaba de entrar
         if guest_sid and guest_name:
             await sio.emit("guest_waiting", {"name": guest_name}, to=sid)
         if guest_cameras_data:
@@ -68,8 +66,16 @@ async def register(sid, data):
         guest_sid = sid
         guest_name = data.get("name", "Participante")
         print(f"👤 Participante esperando: {guest_name} ({sid})")
-        # Avisamos a TODOS los administradores conectados
+        # Emite a todos los hosts conectados
         await sio.emit("guest_waiting", {"name": guest_name}, room="hosts")
+
+# ⭐ SOLUCIÓN A LA CONDICIÓN DE CARRERA
+@sio.event
+async def request_waiting_state(sid, data):
+    if guest_sid and guest_name:
+        await sio.emit("guest_waiting", {"name": guest_name}, to=sid)
+    if guest_sid and guest_cameras_data:
+        await sio.emit("camera_list", guest_cameras_data, to=sid)
 
 @sio.event
 async def send_camera_list(sid, data):
@@ -84,7 +90,6 @@ async def select_camera(sid, data):
 
 @sio.event
 async def sync_view(sid, data):
-    # Los hosts mandan esto al participante
     if guest_sid:
         await sio.emit("sync_view", data, to=guest_sid)
 
