@@ -1,1 +1,400 @@
-{"animes": {"Bleach": {"A": {"pregunta": "Xd", "respuesta": "a", "tipo": "empieza"}, "B": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "C": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "D": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "E": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "F": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "G": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "H": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "I": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "J": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "K": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "L": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "M": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "N": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "O": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "P": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "Q": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "R": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "S": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "T": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "U": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "V": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "W": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "X": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "Y": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "Z": {"pregunta": "", "respuesta": "", "tipo": "empieza"}, "Ñ": {"pregunta": "", "respuesta": "", "tipo": "empieza"}}, "Rent a Girlfriend": {"A": {"pregunta": "Nombre de la seiyuu de Chizuru Ichinose, que además canta el opening 5: \"Non Scenario Etude\".", "respuesta": "Amamiya Sora", "tipo": "empieza"}, "B": {"pregunta": "Afección de Ruka Sarashina por la que su corazón late más lento de lo normal.", "respuesta": "Bradicardia", "tipo": "empieza"}, "C": {"pregunta": "Nombre de la hija de Kazumi Ichinose, cuyo significado es \"mil grullas\".", "respuesta": "Chizuru", "tipo": "empieza"}, "D": {"pregunta": "Empresa de novias de alquiler en la que trabaja Mizuhara.", "respuesta": "Diamond", "tipo": "empieza"}, "E": {"pregunta": "Ending de la tercera temporada de Rent a Girlfriend, que tiene una versión balada.", "respuesta": "End Roll", "tipo": "empieza"}, "F": {"pregunta": "Primer ending de Rent a Girlfriend, que representa metafóricamente la masturbación de Kazuya.", "respuesta": "First Drop", "tipo": "empieza"}, "G": {"pregunta": "Aquello que Chizuru Ichinose tiene de foto de perfil en LINE.", "respuesta": "Gato", "tipo": "empieza"}, "H": {"pregunta": "Archipiélago asociado al resort donde Kazuya, Chizuru y otros personajes van de vacaciones en uno de los arcos más extensos del manga.", "respuesta": "Hawaii", "tipo": "empieza"}, "I": {"pregunta": "Edificio del Paraíso frente al que Chizuru huye de Kazuya cuando este intenta confesarle sus sentimientos.", "respuesta": "Iglesia", "tipo": "empieza"}, "J": {"pregunta": "Nombre del parque temático de atracciones donde transcurre la cita de Kazuya y Chizuru en el arco del Amor y la Novia.", "respuesta": "Joypolis", "tipo": "empieza"}, "K": {"pregunta": "Taxista, abuelo materno de Chizuru Ichinose, que falleció en un accidente de tránsito.", "respuesta": "Katsuhito Ichinose", "tipo": "empieza"}, "L": {"pregunta": "Nombre en inglés de la mascota de Kazuya, que aparece recurrentemente como gag reaccionando a los eventos de los episodios.", "respuesta": "Lungfish", "tipo": "empieza"}, "M": {"pregunta": "Nombre de la granja donde Kazuya planea su segunda cita real con Chizuru.", "respuesta": "Mother Farm", "tipo": "empieza"}, "N": {"pregunta": "Apellido de la exnovia de Kazuya.", "respuesta": "Nanami", "tipo": "empieza"}, "O": {"pregunta": "Famosa isla artificial japonesa donde Chizuru rechaza a Kazuya en un muelle.", "respuesta": "Odaiba", "tipo": "empieza"}, "P": {"pregunta": "Proyecto que lleva a Kazuya a organizar un crowdfunding para financiar su producción.", "respuesta": "Película", "tipo": "empieza"}, "Q": {"pregunta": "Edad con la que Ruka comenzó a trabajar como novia de alquiler, según estimaciones.", "respuesta": "Quince", "tipo": "empieza"}, "R": {"pregunta": "Nombre de la novia de alquiler que contrata Kuribayashi al inicio del manga.", "respuesta": "Ruka", "tipo": "empieza"}, "S": {"pregunta": "Ciudad costera de Japón donde transcurre el arco de la playa en la primera temporada del anime.", "respuesta": "Shimoda", "tipo": "empieza"}, "T": {"pregunta": "Juego de mesa que puso a prueba el equilibrio, flexibilidad y cercanía de Kazuya y Chizuru durante la convivencia.", "respuesta": "Twister", "tipo": "empieza"}, "U": {"pregunta": "Rival amoroso del protagonista, que comúnmente imagina robándole a Mizuhara y cuyo nombre significa \"mar\".", "respuesta": "Umi Nakano", "tipo": "empieza"}, "V": {"pregunta": "Relación de Kazuya y Mini cuando esta aparece por primera vez en el manga.", "respuesta": "Vecinos", "tipo": "empieza"}, "W": {"pregunta": "Apellido de la novia de alquiler pelirrosada, protagonista del spin-off Kanojo Hitomishirimasu.", "respuesta": "Sakurasawa", "tipo": "contiene"}, "X": {"pregunta": "Nombre actual de la red social con la que Mami Nanami difamaba a Kazuya en su cuenta candado.", "respuesta": "X", "tipo": "empieza"}, "Y": {"pregunta": "Apellido de la seiyuu de Mami Nanami, caracterizada por darle miedo a sus propios compañeros con la calidad de sus interpretaciones.", "respuesta": "Yuki (Aoi)", "tipo": "empieza"}, "Z": {"pregunta": "Nombre del exnovio de Mami Nanami, futuro heredero de Nagomi Sake, apodado como \"El Soñador\".", "respuesta": "Kazuya", "tipo": "contiene"}, "Ñ": {"pregunta": "", "respuesta": "", "tipo": "empieza"}}, "Uma Musume": {"A": {"pregunta": "Uma científica obsesionada con la idea de superar los límites de su cuerpo.", "respuesta": "Agnes Tachyon", "tipo": "empieza"}, "B": {"pregunta": "La amiga principal de Oguri Cap en el anime de Cinderella Gray.", "respuesta": "Belno Light", "tipo": "empieza"}, "C": {"pregunta": "Especie de animales reales en los que están basadas las Umas de Uma Musume.", "respuesta": "Caballos", "tipo": "empieza"}, "D": {"pregunta": "Carrera de caballos purasangre de tres años más importante y prestigiosa de Japón.", "respuesta": "Derby Japonés", "tipo": "empieza"}, "E": {"pregunta": "Nombre del entrenador original de Spica.", "respuesta": "Entrenador", "tipo": "empieza"}, "F": {"pregunta": "Líder del dormitorio de Ritto, que inspiró a Jungle Pocket a correr antes de su debut en las carreras.", "respuesta": "Fuji Kiseki", "tipo": "empieza"}, "G": {"pregunta": "Uma Musume legendaria de Spica de características erráticas y cabello blanco.", "respuesta": "Gold Ship", "tipo": "empieza"}, "H": {"pregunta": "Objeto que llevan las Umas en los zapatos para protegerlas y mejorar su apoyo.", "respuesta": "Herraduras", "tipo": "empieza"}, "I": {"pregunta": "Pareja real del caballo Mejiro McQueen con el que comúnmente se hacen bromas de netorare hacia Toukai Teio.", "respuesta": "Ikuno Dictus\n", "tipo": "empieza"}, "J": {"pregunta": "Protagonista de la película \"Beginning of a New Era\", que rivaliza con Agnes Tachyon.", "respuesta": "Jungle Pocket", "tipo": "empieza"}, "K": {"pregunta": "La carrera más larga de la triple corona clásica.", "respuesta": "Kikuka Shō", "tipo": "empieza"}, "L": {"pregunta": "Protagonista del manga Star Blossom, miembro del clan de las Sakuras.", "respuesta": "Sakura Laurel", "tipo": "contiene"}, "M": {"pregunta": "", "respuesta": "Manhattan Cafe", "tipo": "empieza"}, "N": {"pregunta": "", "respuesta": "Narita Top Road", "tipo": "empieza"}, "O": {"pregunta": "Carrera G1 de 2 mil metros, parte de la triple corona de primavera.", "respuesta": "Osaka Hai", "tipo": "empieza"}, "P": {"pregunta": "Primera carrera ganada por Oguri Cap al llegar a las nacionales en el anime de Cinderella Gray.", "respuesta": "Pegasus Stakes", "tipo": "empieza"}, "Q": {"pregunta": "", "respuesta": "Mejiro McQueen", "tipo": "contiene"}, "R": {"pregunta": "", "respuesta": "Road to the Top", "tipo": "empieza"}, "S": {"pregunta": "", "respuesta": "Spica", "tipo": "empieza"}, "T": {"pregunta": "", "respuesta": "Tamamo Cross", "tipo": "empieza"}, "U": {"pregunta": "La canción más famosa de la saga Uma Musume.", "respuesta": "Umapyoi Densetsu", "tipo": "empieza"}, "V": {"pregunta": "Uma Musume inspirada en una de las pocas yeguas que ganaron el Derby japonés compitiendo contra machos, que comparte nombre con una bebida alcohólica.", "respuesta": "Vodka\n", "tipo": "empieza"}, "W": {"pregunta": "Uma Musume rival de Special Week y compañera de cuarto de El Condor Pasa.", "respuesta": "Grass Wonder", "tipo": "contiene"}, "X": {"pregunta": "Uma Musume hermana de Cheval Grand y Vivlos, rival de Gentildonna.", "respuesta": "Verxina", "tipo": "contiene"}, "Y": {"pregunta": "", "respuesta": "Yukino Bijin\n", "tipo": "empieza"}, "Z": {"pregunta": "Uma Musume pelinaranja lesionada en la primera temporada del anime original.", "respuesta": "Silence Suzuka", "tipo": "contiene"}, "Ñ": {"pregunta": "", "respuesta": "", "tipo": "empieza"}}}}
+{
+  "animes": {
+    "Bleach": {
+      "A": {
+        "pregunta": "Xd",
+        "respuesta": "a",
+        "tipo": "empieza"
+      },
+      "B": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "C": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "D": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "E": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "F": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "G": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "H": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "I": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "J": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "K": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "L": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "M": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "N": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "O": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "P": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Q": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "R": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "S": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "T": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "U": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "V": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "W": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "X": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Y": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      },
+      "Z": {
+        "pregunta": "",
+        "respuesta": "",
+        "tipo": "empieza"
+      }
+    },
+    "Rent a Girlfriend": {
+      "A": {
+        "pregunta": "Nombre de la seiyuu de Chizuru Ichinose, que además canta el opening 5: \"Non Scenario Etude\".",
+        "respuesta": "Amamiya Sora",
+        "tipo": "empieza"
+      },
+      "B": {
+        "pregunta": "Afección de Ruka Sarashina por la que su corazón late más lento de lo normal.",
+        "respuesta": "Bradicardia",
+        "tipo": "empieza"
+      },
+      "C": {
+        "pregunta": "Nombre de la hija de Kazumi Ichinose, cuyo significado es \"mil grullas\".",
+        "respuesta": "Chizuru",
+        "tipo": "empieza"
+      },
+      "D": {
+        "pregunta": "Empresa de novias de alquiler en la que trabaja Mizuhara.",
+        "respuesta": "Diamond",
+        "tipo": "empieza"
+      },
+      "E": {
+        "pregunta": "Ending de la tercera temporada de Rent a Girlfriend, que tiene una versión balada.",
+        "respuesta": "End Roll",
+        "tipo": "empieza"
+      },
+      "F": {
+        "pregunta": "Primer ending de Rent a Girlfriend, que representa metafóricamente la masturbación de Kazuya.",
+        "respuesta": "First Drop",
+        "tipo": "empieza"
+      },
+      "G": {
+        "pregunta": "Aquello que Chizuru Ichinose tiene de foto de perfil en LINE.",
+        "respuesta": "Gato",
+        "tipo": "empieza"
+      },
+      "H": {
+        "pregunta": "Archipiélago asociado al resort donde Kazuya, Chizuru y otros personajes van de vacaciones en uno de los arcos más extensos del manga.",
+        "respuesta": "Hawaii",
+        "tipo": "empieza"
+      },
+      "I": {
+        "pregunta": "Edificio del Paraíso frente al que Chizuru huye de Kazuya cuando este intenta confesarle sus sentimientos.",
+        "respuesta": "Iglesia",
+        "tipo": "empieza"
+      },
+      "J": {
+        "pregunta": "Nombre del parque temático de atracciones donde transcurre la cita de Kazuya y Chizuru en el arco del Amor y la Novia.",
+        "respuesta": "Joypolis",
+        "tipo": "empieza"
+      },
+      "K": {
+        "pregunta": "Taxista, abuelo materno de Chizuru Ichinose, que falleció en un accidente de tránsito.",
+        "respuesta": "Katsuhito Ichinose",
+        "tipo": "empieza"
+      },
+      "L": {
+        "pregunta": "Nombre en inglés de la mascota de Kazuya, que aparece recurrentemente como gag reaccionando a los eventos de los episodios.",
+        "respuesta": "Lungfish",
+        "tipo": "empieza"
+      },
+      "M": {
+        "pregunta": "Nombre de la granja donde Kazuya planea su segunda cita real con Chizuru.",
+        "respuesta": "Mother Farm",
+        "tipo": "empieza"
+      },
+      "N": {
+        "pregunta": "Apellido de la exnovia de Kazuya.",
+        "respuesta": "Nanami",
+        "tipo": "empieza"
+      },
+      "O": {
+        "pregunta": "Famosa isla artificial japonesa donde Chizuru rechaza a Kazuya en un muelle.",
+        "respuesta": "Odaiba",
+        "tipo": "empieza"
+      },
+      "P": {
+        "pregunta": "Proyecto que lleva a Kazuya a organizar un crowdfunding para financiar su producción.",
+        "respuesta": "Película",
+        "tipo": "empieza"
+      },
+      "Q": {
+        "pregunta": "Edad con la que Ruka comenzó a trabajar como novia de alquiler, según estimaciones.",
+        "respuesta": "Quince",
+        "tipo": "empieza"
+      },
+      "R": {
+        "pregunta": "Nombre de la novia de alquiler que contrata Kuribayashi al inicio del manga.",
+        "respuesta": "Ruka",
+        "tipo": "empieza"
+      },
+      "S": {
+        "pregunta": "Ciudad costera de Japón donde transcurre el arco de la playa en la primera temporada del anime.",
+        "respuesta": "Shimoda",
+        "tipo": "empieza"
+      },
+      "T": {
+        "pregunta": "Juego de mesa que puso a prueba el equilibrio, flexibilidad y cercanía de Kazuya y Chizuru durante la convivencia.",
+        "respuesta": "Twister",
+        "tipo": "empieza"
+      },
+      "U": {
+        "pregunta": "Rival amoroso del protagonista, que comúnmente imagina robándole a Mizuhara y cuyo nombre significa \"mar\".",
+        "respuesta": "Umi Nakano",
+        "tipo": "empieza"
+      },
+      "V": {
+        "pregunta": "Relación de Kazuya y Mini cuando esta aparece por primera vez en el manga.",
+        "respuesta": "Vecinos",
+        "tipo": "empieza"
+      },
+      "W": {
+        "pregunta": "Apellido de la novia de alquiler pelirrosada, protagonista del spin-off Kanojo Hitomishirimasu.",
+        "respuesta": "Sakurasawa",
+        "tipo": "contiene"
+      },
+      "X": {
+        "pregunta": "Nombre actual de la red social con la que Mami Nanami difamaba a Kazuya en su cuenta candado.",
+        "respuesta": "X",
+        "tipo": "empieza"
+      },
+      "Y": {
+        "pregunta": "Apellido de la seiyuu de Mami Nanami, caracterizada por darle miedo a sus propios compañeros con la calidad de sus interpretaciones.",
+        "respuesta": "Yuki (Aoi)",
+        "tipo": "empieza"
+      },
+      "Z": {
+        "pregunta": "Nombre del exnovio de Mami Nanami, futuro heredero de Nagomi Sake, apodado como \"El Soñador\".",
+        "respuesta": "Kazuya",
+        "tipo": "contiene"
+      }
+    },
+    "Uma Musume": {
+      "A": {
+        "pregunta": "Uma científica obsesionada con la idea de superar los límites de su cuerpo.",
+        "respuesta": "Agnes Tachyon",
+        "tipo": "empieza"
+      },
+      "B": {
+        "pregunta": "La amiga principal de Oguri Cap en el anime de Cinderella Gray.",
+        "respuesta": "Belno Light",
+        "tipo": "empieza"
+      },
+      "C": {
+        "pregunta": "Especie de animales reales en los que están basadas las Umas de Uma Musume.",
+        "respuesta": "Caballos",
+        "tipo": "empieza"
+      },
+      "D": {
+        "pregunta": "Carrera de caballos purasangre de tres años más importante y prestigiosa de Japón.",
+        "respuesta": "Derby Japonés",
+        "tipo": "empieza"
+      },
+      "E": {
+        "pregunta": "Nombre del entrenador original de Spica.",
+        "respuesta": "Entrenador",
+        "tipo": "empieza"
+      },
+      "F": {
+        "pregunta": "Líder del dormitorio de Ritto, que inspiró a Jungle Pocket a correr antes de su debut en las carreras.",
+        "respuesta": "Fuji Kiseki",
+        "tipo": "empieza"
+      },
+      "G": {
+        "pregunta": "Uma Musume legendaria de Spica de características erráticas y cabello blanco.",
+        "respuesta": "Gold Ship",
+        "tipo": "empieza"
+      },
+      "H": {
+        "pregunta": "Objeto que llevan las Umas en los zapatos para protegerlas y mejorar su apoyo.",
+        "respuesta": "Herraduras",
+        "tipo": "empieza"
+      },
+      "I": {
+        "pregunta": "Pareja real del caballo Mejiro McQueen con el que comúnmente se hacen bromas de netorare hacia Toukai Teio.",
+        "respuesta": "Ikuno Dictus\n",
+        "tipo": "empieza"
+      },
+      "J": {
+        "pregunta": "Protagonista de la película \"Beginning of a New Era\", que rivaliza con Agnes Tachyon.",
+        "respuesta": "Jungle Pocket",
+        "tipo": "empieza"
+      },
+      "K": {
+        "pregunta": "La carrera más larga de la triple corona clásica.",
+        "respuesta": "Kikuka Shō",
+        "tipo": "empieza"
+      },
+      "L": {
+        "pregunta": "Protagonista del manga Star Blossom, miembro del clan de las Sakuras.",
+        "respuesta": "Sakura Laurel",
+        "tipo": "contiene"
+      },
+      "M": {
+        "pregunta": "",
+        "respuesta": "Manhattan Cafe",
+        "tipo": "empieza"
+      },
+      "N": {
+        "pregunta": "",
+        "respuesta": "Narita Top Road",
+        "tipo": "empieza"
+      },
+      "O": {
+        "pregunta": "Carrera G1 de 2 mil metros, parte de la triple corona de primavera.",
+        "respuesta": "Osaka Hai",
+        "tipo": "empieza"
+      },
+      "P": {
+        "pregunta": "Primera carrera ganada por Oguri Cap al llegar a las nacionales en el anime de Cinderella Gray.",
+        "respuesta": "Pegasus Stakes",
+        "tipo": "empieza"
+      },
+      "Q": {
+        "pregunta": "",
+        "respuesta": "Mejiro McQueen",
+        "tipo": "contiene"
+      },
+      "R": {
+        "pregunta": "",
+        "respuesta": "Road to the Top",
+        "tipo": "empieza"
+      },
+      "S": {
+        "pregunta": "",
+        "respuesta": "Spica",
+        "tipo": "empieza"
+      },
+      "T": {
+        "pregunta": "",
+        "respuesta": "Tamamo Cross",
+        "tipo": "empieza"
+      },
+      "U": {
+        "pregunta": "La canción más famosa de la saga Uma Musume.",
+        "respuesta": "Umapyoi Densetsu",
+        "tipo": "empieza"
+      },
+      "V": {
+        "pregunta": "Uma Musume inspirada en una de las pocas yeguas que ganaron el Derby japonés compitiendo contra machos, que comparte nombre con una bebida alcohólica.",
+        "respuesta": "Vodka\n",
+        "tipo": "empieza"
+      },
+      "W": {
+        "pregunta": "Uma Musume rival de Special Week y compañera de cuarto de El Condor Pasa.",
+        "respuesta": "Grass Wonder",
+        "tipo": "contiene"
+      },
+      "X": {
+        "pregunta": "Uma Musume hermana de Cheval Grand y Vivlos, rival de Gentildonna.",
+        "respuesta": "Verxina",
+        "tipo": "contiene"
+      },
+      "Y": {
+        "pregunta": "",
+        "respuesta": "Yukino Bijin\n",
+        "tipo": "empieza"
+      },
+      "Z": {
+        "pregunta": "Uma Musume pelinaranja lesionada en la primera temporada del anime original.",
+        "respuesta": "Silence Suzuka",
+        "tipo": "contiene"
+      }
+    }
+  }
+}
